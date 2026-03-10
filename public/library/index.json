@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "featuredBookId": "spurgeon-poder-da-oracao",
+  "books": [
+    {
+      "bookId": "spurgeon-poder-da-oracao",
+      "path": "library/spurgeon-poder-da-oracao",
+      "status": "published"
+    },
+    {
+      "bookId": "owen-autoridade-escritura",
+      "path": "library/owen-autoridade-escritura",
+      "status": "published"
+    },
+    {
+      "bookId": "torrey-origem-divina-biblia",
+      "path": "library/torrey-origem-divina-biblia",
+      "status": "published"
+    },
+    {
+      "bookId": "wesley-escritura-caminho",
+      "path": "library/wesley-escritura-caminho",
+      "status": "published"
+    },
+    {
+      "bookId": "spurgeon-palavra-viva",
+      "path": "library/spurgeon-palavra-viva",
+      "status": "published"
+    },
+    {
+      "bookId": "spurgeon-arte-de-pregar",
+      "path": "library/spurgeon-arte-de-pregar",
+      "status": "published"
+    },
+    {
+      "bookId": "tozer-em-busca-de-deus",
+      "path": "library/tozer-em-busca-de-deus",
+      "status": "published"
+    }
+  ]
+}

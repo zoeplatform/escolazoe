@@ -1,0 +1,71 @@
+{
+  "packId": "fundamentos.revelacao-escritura",
+  "courseId": "fundamentos",
+  "moduleId": "fundamentos-revelacao-escritura",
+  "moduleTitle": "Revelação & Escritura",
+  "version": "2.1.0",
+  "updatedAt": "2026-03-07",
+  "passingScore": 80,
+  "assets": [],
+  "lessons": [
+    {
+      "lessonId": "FND-RE-01",
+      "title": "Autoridade das Escrituras",
+      "file": "lessons/FND-RE-01.md",
+      "assessmentFile": "assessments/FND-RE-01.json",
+      "estimatedStudyMinutes": 120,
+      "estimatedMeetingMinutes": 150
+    },
+    {
+      "lessonId": "FND-RE-02",
+      "title": "Inspiração e Formação do Cânon",
+      "file": "lessons/FND-RE-02.md",
+      "assessmentFile": "assessments/FND-RE-02.json",
+      "estimatedStudyMinutes": 120,
+      "estimatedMeetingMinutes": 150
+    },
+    {
+      "lessonId": "FND-RE-03",
+      "title": "Confiabilidade, Inerrância e Interpretação",
+      "file": "lessons/FND-RE-03.md",
+      "assessmentFile": "assessments/FND-RE-03.json",
+      "estimatedStudyMinutes": 120,
+      "estimatedMeetingMinutes": 150
+    },
+    {
+      "lessonId": "FND-RE-04",
+      "title": "Suficiência e Centralidade da Escritura",
+      "file": "lessons/FND-RE-04.md",
+      "assessmentFile": "assessments/FND-RE-04.json",
+      "estimatedStudyMinutes": 120,
+      "estimatedMeetingMinutes": 150
+    }
+  ],
+  "moduleExam": {
+    "examId": "FND-RE-EXAM-01",
+    "title": "Avaliação Final — Módulo 1: Revelação & Escritura",
+    "file": "assessments/FND-RE-EXAM-01.json",
+    "totalPoints": 100,
+    "passingScore": 70,
+    "estimatedMinutes": 60,
+    "coverageMap": {
+      "FND-RE-01": ["Q01","Q02","Q03","Q04","Q05","Q06","Q07","Q08","Q09","Q10","Q11","Q20","Q21"],
+      "FND-RE-02": ["Q12","Q13","Q14","Q15","Q16","Q22","Q23"],
+      "FND-RE-03": ["Q17","Q18","Q19","Q24","Q25"],
+      "FND-RE-04": ["Q26","Q27","Q28","Q29","Q30"]
+    },
+    "questionTypes": {
+      "multiple_choice": { "count": 25, "points": 50 },
+      "true_false":      { "count": 10, "points": 10 },
+      "matching":        { "count": 1,  "points": 8  },
+      "essay":           { "count": 4,  "points": 32 }
+    },
+    "gradeScale": [
+      { "label": "Aprovado com Distinção", "minScore": 90, "badge": "distinction" },
+      { "label": "Aprovado com Mérito",    "minScore": 80, "badge": "merit" },
+      { "label": "Aprovado",               "minScore": 70, "badge": "pass" },
+      { "label": "Recuperação",            "minScore": 50, "badge": "recovery" },
+      { "label": "Reprovado",              "minScore": 0,  "badge": "fail" }
+    ]
+  }
+}

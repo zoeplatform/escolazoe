@@ -1,0 +1,58 @@
+{
+  "lessonId": "FND-DG-01",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "multiple_choice",
+      "question": "Qual é a diferença fundamental entre revelação geral e revelação especial?",
+      "options": ["A revelação geral é mais confiável por ser universal; a especial é reservada a poucos eleitos.", "A revelação geral está disponível a todos pela criação, providência e consciência, mas é insuficiente para a salvação; a especial comunica o evangelho redentor.", "A revelação geral refere-se ao AT; a especial ao NT.", "A revelação geral é interna (consciência); a especial é exclusivamente a Bíblia escrita."],
+      "correctIndex": 1,
+      "rationale": "Revelação geral é universal (criação, providência, consciência moral) e responsabiliza todos, mas não conduz à salvação. Revelação especial é salvífica: Escritura, atos redentivos de Deus e supremamente Jesus Cristo."
+    },
+    {
+      "id": "Q2",
+      "type": "multiple_choice",
+      "question": "Segundo Romanos 1.20, qual é a consequência da revelação geral para os seres humanos?",
+      "options": ["Todos os seres humanos são automaticamente salvos pelo conhecimento de Deus na criação.", "Os seres humanos possuem desculpa válida por não conhecerem Deus.", "Os seres humanos são 'indesculpáveis' pois o poder e a divindade de Deus são claramente percebidos.", "A revelação pela criação é vaga demais para responsabilizar alguém."],
+      "correctIndex": 2,
+      "rationale": "Paulo explicitamente declara que os atributos de Deus são 'claramente reconhecidos' pela criação, tornando os seres humanos 'indesculpáveis' — a revelação geral é suficiente para responsabilidade, não para salvação."
+    },
+    {
+      "id": "Q3",
+      "type": "multiple_choice",
+      "question": "O argumento cosmológico para a existência de Deus parte de qual premissa fundamental?",
+      "options": ["A ideia de um ser perfeito implica necessariamente sua existência.", "O design complexo do universo pressupõe um projetista inteligente.", "Toda existência contingente requer uma causa; o universo é contingente; logo requer uma causa necessária.", "A consciência moral universal pressupõe um legislador moral transcendente."],
+      "correctIndex": 2,
+      "rationale": "O argumento cosmológico parte da contingência: o universo poderia não existir, portanto requer uma causa necessária e não contingente — um Ser que existe por si mesmo."
+    },
+    {
+      "id": "Q4",
+      "type": "multiple_choice",
+      "question": "O que Paulo quer dizer em Romanos 1.18 quando afirma que os seres humanos 'suprimem a verdade na injustiça'?",
+      "options": ["Os seres humanos não têm acesso à verdade sobre Deus e por isso vivem na injustiça.", "O ateísmo é uma posição intelectual neutra resultante da falta de evidências.", "Os seres humanos conhecem Deus pela criação, mas recusam ativamente esse conhecimento por razões morais, não intelectuais.", "Apenas os que tiveram acesso à Bíblia podem ser responsabilizados perante Deus."],
+      "correctIndex": 2,
+      "rationale": "Paulo descreve a supressão da verdade como ato ativo de vontade, não ausência intelectual. O ateísmo, na perspectiva bíblica, é recusa moral, não conclusão racional neutra."
+    },
+    {
+      "id": "Q5",
+      "type": "multiple_choice",
+      "question": "Qual dos seguintes descreve corretamente o ápice da revelação especial segundo Hebreus 1.1-2?",
+      "options": ["Os profetas do AT, que comunicaram a Palavra de Deus de forma mais direta.", "As Escrituras do NT, que completaram e superaram o AT.", "Jesus Cristo, o Filho, por quem Deus falou de forma definitiva nestes últimos dias.", "Os apóstolos, que testemunharam e registraram os atos de Jesus."],
+      "correctIndex": 2,
+      "rationale": "Hebreus 1.1-2 estabelece progressão revelacional: Deus falou pelos profetas em muitos modos — e agora falou definitivamente pelo Filho. Cristo é o ápice e a completude da revelação especial."
+    },
+    {
+      "id": "Q6",
+      "type": "short_answer",
+      "question": "Explique por que a revelação geral é suficiente para responsabilizar o ser humano, mas insuficiente para a salvação. Use pelo menos uma referência bíblica em sua resposta.",
+      "expectedPoints": ["A revelação geral (criação, consciência) revela o poder e a divindade de Deus", "É universalmente disponível — nenhum ser humano está sem acesso a ela", "Rm 1.20: torna os seres humanos 'indesculpáveis'", "Não revela o evangelho de Cristo — a solução para o pecado", "Por isso a revelação especial e a pregação do evangelho são necessárias para a salvação (Rm 10.14-17)"]
+    },
+    {
+      "id": "Q7",
+      "type": "short_answer",
+      "question": "O que é o argumento pressuposicional para a existência de Deus (Van Til) e em que sentido ele vai além dos argumentos clássicos?",
+      "expectedPoints": ["Os argumentos clássicos trabalham dentro da racionalidade humana para apontar para Deus", "O argumento pressuposicional afirma que a própria possibilidade da razão, lógica e linguagem pressupõe o Deus da Escritura", "Sem Deus como fundamento, não há base para lei lógica, regularidade do universo ou linguagem", "O ateísta usa dons de Deus para negar Deus — contradição interna", "Vai ao nível dos pressupostos, não apenas das evidências"]
+  }
+  ]
+}

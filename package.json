@@ -1,0 +1,44 @@
+{
+  "name": "escolazoe-ui",
+  "private": true,
+  "version": "1.4.0",
+  "type": "module",
+  "author": "Escola Zoe",
+  "description": "Plataforma de Educação Cristã Moderna",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "cap:init": "npx cap init Escola Zoe com.escolazoe.app --web-dir=dist",
+    "cap:add:android": "npx cap add android",
+    "cap:sync:android": "npm run build && npx cap sync android",
+    "cap:open:android": "npx cap open android",
+    "gen:curriculum": "node scripts/genCurriculum.mjs",
+    "build:gh": "VITE_BASE_PATH=/$(basename $(git rev-parse --show-toplevel)) vite build",
+    "predeploy": "pnpm build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wouter": "^3.6.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/network": "^6.0.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "gh-pages": "^6.0.0"
+  }
+}

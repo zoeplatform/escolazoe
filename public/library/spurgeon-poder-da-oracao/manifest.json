@@ -1,0 +1,92 @@
+{
+  "bookId": "spurgeon-poder-da-oracao",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "published",
+
+  "meta": {
+    "title": "O Poder da Oração",
+    "subtitle": "Sermões sobre a vida de oração do cristão",
+    "originalTitle": "The Power of Prayer in a Believer's Life",
+    "author": {
+      "name": "Charles H. Spurgeon",
+      "born": 1834,
+      "died": 1892,
+      "bio": "Spurgeon foi o maior pregador batista do século XIX, pastor do Metropolitan Tabernacle em Londres por mais de 30 anos. Seus sermões, pregados a milhares, são até hoje referência de pregação expositiva e teologia reformada popular."
+    },
+    "originalPublishedYear": 1884,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Obra publicada em 1884. Autor falecido em 1892. Domínio público no Brasil (Lei 9.610/98, Art. 41 — 70 anos após morte do autor).",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe. Linguagem atualizada para o português contemporâneo brasileiro, mantendo fidelidade teológica ao original."
+    }
+  },
+
+  "classification": {
+    "category": "vida-crista",
+    "subcategory": "oracao",
+    "tags": ["oração", "vida devocional", "fé", "intercessão", "comunhão com Deus", "spurgeon"],
+    "difficulty": "introductory",
+    "audience": ["novos-crentes", "membros", "lideres"],
+    "readingLevel": "acessível"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "fundamentos-doutrina-de-deus",
+      "lessonId": "FND-DG-01",
+      "relevance": "high",
+      "note": "Aprofunda a dimensão relacional do conhecimento de Deus — da revelação à comunhão"
+    },
+    {
+      "courseId": "fundamentos",
+      "moduleId": "fundamentos-revelacao-escritura",
+      "lessonId": "FND-RE-04",
+      "relevance": "medium",
+      "note": "A oração como resposta prática à suficiência da Escritura"
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 55,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "SPG-OP-01",
+      "order": 1,
+      "title": "A Necessidade da Oração",
+      "file": "chapters/SPG-OP-01.md",
+      "estimatedMinutes": 18,
+      "summary": "Spurgeon confronta a tendência humana de negligenciar a oração e estabelece por que ela não é opcional na vida cristã, mas constitutiva dela."
+    },
+    {
+      "chapterId": "SPG-OP-02",
+      "order": 2,
+      "title": "Como Orar com Fé",
+      "file": "chapters/SPG-OP-02.md",
+      "estimatedMinutes": 20,
+      "summary": "Uma exposição prática e teológica da oração com fé genuína — o que significa, o que não significa, e como cultivá-la."
+    },
+    {
+      "chapterId": "SPG-OP-03",
+      "order": 3,
+      "title": "A Oração que Prevalece",
+      "file": "chapters/SPG-OP-03.md",
+      "estimatedMinutes": 17,
+      "summary": "Spurgeon examina as características da oração que 'prevalece' diante de Deus — não pela eloquência, mas pela fé, persistência e alinhamento com a vontade de Deus."
+    }
+  ],
+
+  "featuredQuote": {
+    "text": "A oração move o braço que move o mundo. Há mais poder nos joelhos curvados do que em qualquer outro poder que o homem possa exercer.",
+    "chapterId": "SPG-OP-01"
+  }
+}

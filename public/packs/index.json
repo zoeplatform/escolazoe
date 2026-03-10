@@ -1,0 +1,16 @@
+{
+  "packs": [
+    {
+      "courseId": "fundamentos",
+      "moduleSlug": "revelacao-escritura",
+      "packId": "fundamentos.revelacao-escritura",
+      "path": "fundamentos/revelacao-escritura"
+    },
+    {
+      "courseId": "fundamentos",
+      "moduleSlug": "doutrina-de-deus",
+      "packId": "fundamentos.doutrina-de-deus",
+      "path": "fundamentos/doutrina-de-deus"
+    }
+  ]
+}

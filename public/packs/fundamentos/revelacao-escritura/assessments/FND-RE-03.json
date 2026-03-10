@@ -1,0 +1,93 @@
+{
+  "lessonId": "FND-RE-03",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "multiple_choice",
+      "question": "A qual documento de referência da ortodoxia evangélica contemporânea sobre inerrância o curso se refere?",
+      "options": [
+        "Confissão de Augsburgo (1530)",
+        "Declaração de Chicago sobre a Inerrância Bíblica (1978)",
+        "Confissão de Fé de Westminster (1647)",
+        "Declaração de Lausanne sobre Evangelização Mundial (1974)"
+      ],
+      "correctIndex": 1,
+      "rationale": "A Declaração de Chicago sobre a Inerrância Bíblica (1978) é o documento de referência central da ortodoxia evangélica contemporânea sobre o tema da inerrância."
+    },
+    {
+      "id": "Q2",
+      "type": "multiple_choice",
+      "question": "O que a inerrância bíblica NÃO afirma?",
+      "options": [
+        "Que Deus garantiu que o texto está livre de falsidade nas afirmações do texto.",
+        "Que cada tradução moderna da Bíblia é perfeita e inerrante.",
+        "Que o texto original (autógrafo) afirma somente a verdade em tudo que ensina.",
+        "Que a Bíblia pode ser plenamente confiada como guia de fé e prática."
+      ],
+      "correctIndex": 1,
+      "rationale": "A inerrância se aplica aos manuscritos originais (autógrafos), não às traduções. As traduções podem conter erros humanos de tradução sem que isso afete a inerrância dos originais."
+    },
+    {
+      "id": "Q3",
+      "type": "multiple_choice",
+      "question": "O que é 'eisegese' e por que é um erro hermenêutico?",
+      "options": [
+        "É a leitura gramatical-histórica do texto; não é um erro, mas o método correto.",
+        "É a comparação entre passagens paralelas para determinar o sentido; é válida quando bem aplicada.",
+        "É ler no texto o que o intérprete quer encontrar, em vez de extrair o que o texto afirma; viola a autoridade do autor.",
+        "É a leitura cristológica do AT; controversa mas não necessariamente errada."
+      ],
+      "correctIndex": 2,
+      "rationale": "Eisegese é o oposto de exegese: em vez de extrair o sentido do texto (ex-), o intérprete injeta (eis-) seus próprios pressupostos e conclusões no texto, violando a autoridade do autor divino-humano."
+    },
+    {
+      "id": "Q4",
+      "type": "multiple_choice",
+      "question": "O que é a 'Analogia da Fé' como princípio hermenêutico?",
+      "options": [
+        "A ideia de que toda passagem bíblica deve ser interpretada literalmente.",
+        "O princípio de que passagens obscuras devem ser interpretadas à luz de passagens claras, pois a Escritura interpreta a Escritura.",
+        "A prática de comparar a Bíblia com textos de outras religiões para encontrar temas comuns.",
+        "O método de interpretar todo o AT de forma alegórica, encontrando referências a Cristo em cada passagem."
+      ],
+      "correctIndex": 1,
+      "rationale": "A Analogia da Fé (analogia fidei) é o princípio hermenêutico de que a Escritura interpreta a Escritura: passagens obscuras ou difíceis devem ser compreendidas à luz do ensino mais claro do restante do cânon."
+    },
+    {
+      "id": "Q5",
+      "type": "multiple_choice",
+      "question": "Na interpretação gramatical-histórica, qual é a pergunta primária do intérprete?",
+      "options": [
+        "O que esse texto significa para mim e para minha situação atual?",
+        "Como esse texto foi interpretado pelos Pais da Igreja?",
+        "O que as palavras significavam no contexto linguístico e histórico do autor original?",
+        "Qual experiência espiritual esse texto pretende produzir no leitor?"
+      ],
+      "correctIndex": 2,
+      "rationale": "A interpretação gramatical-histórica busca o sentido que as palavras tinham para o autor e seus leitores originais — determinado pelo contexto linguístico, histórico e cultural da composição."
+    },
+    {
+      "id": "Q6",
+      "type": "short_answer",
+      "question": "Explique a resposta ortodoxa à objeção de que 'os Evangelhos se contradizem', usando os princípios hermenêuticos aprendidos.",
+      "expectedPoints": [
+        "Relatos complementares de perspectivas diferentes não são contradições por definição",
+        "Cada evangelista escreveu com propósito teológico e audiência específicos, selecionando e ordenando material legitimamente",
+        "A harmonização cuidadosa, considerando contexto e intenção do autor, resolve a maior parte dos casos aparentes",
+        "Variações em detalhes secundários (ordem, número, diálogos resumidos) são práticas literárias históricas normais, não erros"
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "short_answer",
+      "question": "Descreva dois erros hermenêuticos que devem ser evitados na interpretação bíblica e explique por que cada um compromete a autoridade das Escrituras.",
+      "expectedPoints": [
+        "Eisegese: ler no texto o que o intérprete quer — faz o leitor a autoridade, não o texto",
+        "Prova-texto isolado: usar versículos fora de contexto — distorce a intenção do autor divino-humano",
+        "Alegorização excessiva: transformar narrativas históricas em alegorias sem base — dissolve o ancoramento histórico da fé",
+        "Presentismo: aplicar categorias culturais modernas anacrônicas — impõe ao texto o que ele não afirma"
+      ]
+    }
+  ]
+}

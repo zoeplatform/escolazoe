@@ -1,0 +1,93 @@
+/* 
+ * Gradiente Zoe - Reutilizável em qualquer lugar
+ * Laranja #FF6B35 → Rosa #FF1B6B → Roxo #7B2CBF
+ */
+
+:root {
+  /* Gradiente Zoe - Cores principais */
+  --gradient-zoe: linear-gradient(135deg, #FF6B35 0%, #FF1B6B 50%, #7B2CBF 100%);
+  --gradient-zoe-hover: linear-gradient(135deg, #FF7B4A 0%, #FF2B7B 50%, #8B3CBF 100%);
+  
+  /* Cores sólidas do gradiente (para uso onde gradiente não funciona) */
+  --zoe-orange: #FF6B35;
+  --zoe-pink: #FF1B6B;
+  --zoe-purple: #7B2CBF;
+  
+  /* Cor intermediária (para fallback) */
+  --zoe-primary: #FF1B6B; /* Rosa/Rosa-claro do gradiente */
+}
+
+/* Classe utilitária para aplicar gradiente */
+.bg-gradient-zoe {
+  background: var(--gradient-zoe);
+}
+
+.bg-gradient-zoe-hover:hover {
+  background: var(--gradient-zoe-hover);
+}
+
+/* Circular gradient para logo */
+.logo-icon-zoe {
+  background: var(--gradient-zoe);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Botões com gradiente Zoe */
+.btn-gradient-zoe {
+  background: var(--gradient-zoe);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.btn-gradient-zoe:hover {
+  background: var(--gradient-zoe-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 27, 107, 0.3);
+}
+
+.btn-gradient-zoe:active {
+  transform: translateY(0);
+}
+
+/* Badge com gradiente Zoe */
+.badge-gradient-zoe {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF1B6B 50%, #7B2CBF 100%);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Text com cor do gradiente (usa a cor primária) */
+.text-gradient-zoe {
+  color: var(--zoe-primary);
+}
+
+/* Border com cor do gradiente */
+.border-gradient-zoe {
+  border-color: var(--zoe-primary);
+}
+
+/* Shadow com cor do gradiente */
+.shadow-gradient-zoe {
+  box-shadow: 0 4px 12px rgba(255, 27, 107, 0.2);
+}
+
+/* Accent decoration (underline, line, etc) */
+.accent-zoe {
+  background: linear-gradient(to right, var(--zoe-orange), var(--zoe-pink), var(--zoe-purple));
+  height: 3px;
+  border-radius: 999px;
+}

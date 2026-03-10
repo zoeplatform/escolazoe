@@ -1,0 +1,58 @@
+{
+  "lessonId": "FND-DG-02",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "multiple_choice",
+      "question": "O que significa dizer que Deus possui 'aseidade' ou autoexistência?",
+      "options": ["Deus existe apenas enquanto é adorado pelos seres humanos.", "Deus existe por si mesmo, sem dependência de qualquer outra coisa para sua existência.", "Deus criou a si mesmo antes de criar o universo.", "A existência de Deus pode ser demonstrada apenas pela razão humana."],
+      "correctIndex": 1,
+      "rationale": "Aseidade (do latim a se, 'de si mesmo') significa que Deus existe necessariamente por sua própria natureza, sem dependência de nenhuma causa ou condição externa. Êxodo 3.14 — 'Eu Sou o que Sou' — expressa esta realidade."
+    },
+    {
+      "id": "Q2",
+      "type": "multiple_choice",
+      "question": "Qual é a distinção correta entre atributos incomunicáveis e comunicáveis de Deus?",
+      "options": ["Incomunicáveis são os atributos morais; comunicáveis são os metafísicos.", "Incomunicáveis pertencem exclusivamente a Deus; comunicáveis foram partilhados com a criação em grau derivado.", "Incomunicáveis podem ser ensinados; comunicáveis são apenas experimentados.", "Incomunicáveis existem apenas no NT; comunicáveis no AT."],
+      "correctIndex": 1,
+      "rationale": "Atributos incomunicáveis são exclusivamente divinos (onipotência, eternidade, imutabilidade). Comunicáveis foram partilhados com os seres humanos feitos à imagem de Deus (amor, justiça, bondade) — em grau finito e derivado."
+    },
+    {
+      "id": "Q3",
+      "type": "multiple_choice",
+      "question": "A imutabilidade de Deus afirma que:",
+      "options": ["Deus não pode agir de formas diferentes em momentos diferentes da história.", "Deus não muda em seu ser, caráter, perfeições e propósitos — o que garante a confiabilidade de suas promessas.", "Deus é estático e não pode responder às orações dos crentes.", "As promessas de Deus se adaptam às circunstâncias culturais de cada época."],
+      "correctIndex": 1,
+      "rationale": "Imutabilidade não é impassibilidade ou estaticidade — é estabilidade de ser e caráter. Deus pode agir de formas distintas na história sem mudar sua essência. Malaquias 3.6 e Tiago 1.17 são textos-chave."
+    },
+    {
+      "id": "Q4",
+      "type": "multiple_choice",
+      "question": "Como a cruz de Cristo demonstra a unidade entre a justiça e o amor de Deus?",
+      "options": ["A cruz prova que o amor de Deus é maior que sua justiça — por isso ele perdoa sem punir.", "Na cruz, o amor de Deus providenciou a propiciação que satisfez sua justiça — ambos são plenamente honrados.", "A cruz mostra que a justiça de Deus é temporária; o amor é seu atributo permanente.", "A cruz revela que Deus precisou escolher entre amar e ser justo, optando pelo amor."],
+      "correctIndex": 1,
+      "rationale": "Romanos 3.25-26: Deus apresentou Cristo como propiciação para demonstrar sua justiça (pecado punido) e para ser justo ao mesmo tempo em que justifica o que crê. A cruz é a resolução perfeita — não o sacrifício de um atributo pelo outro."
+    },
+    {
+      "id": "Q5",
+      "type": "multiple_choice",
+      "question": "Qual atributo de Deus é o único repetido três vezes seguidas na Escritura (tanto em Isaías 6.3 quanto em Apocalipse 4.8)?",
+      "options": ["Amor", "Bondade", "Santidade", "Fidelidade"],
+      "correctIndex": 2,
+      "rationale": "A repetição tripla de 'Santo, Santo, Santo' — o único atributo com esse tratamento nas Escrituras — indica a suprema importância da santidade. Ela descreve a separação radical de Deus de tudo impuro e sua absoluta perfeição moral."
+    },
+    {
+      "id": "Q6",
+      "type": "short_answer",
+      "question": "O liberalismo teológico tendeu a absolutizar o amor de Deus em detrimento de sua santidade e justiça. Quais são as consequências teológicas dessa distorção? Cite pelo menos dois efeitos.",
+      "expectedPoints": ["Deus se torna um pai sentimental que não pode julgar — perde a seriedade do pecado", "A expiação (substituição penal) se torna desnecessária — se Deus só ama, pode perdoar sem satisfação da justiça", "A santidade de Deus é esvaziada — o pecado não é tratado como ofensa contra o infinitamente santo", "O evangelho é reduzido a mensagem de aceitação incondicional sem conversão ou arrependimento", "Qualquer dois dos pontos acima constituem resposta adequada"]
+    },
+    {
+      "id": "Q7",
+      "type": "short_answer",
+      "question": "Explique o princípio da 'simplicidade divina' e por que ele impede que se afirme que os atributos de Deus estão em conflito uns com os outros.",
+      "expectedPoints": ["Deus não é composto de partes — seus atributos não são componentes separados", "Cada atributo é Deus inteiramente visto de um ângulo específico", "O amor de Deus é santo; a santidade é amorosa; a justiça é misericordiosa", "Não há tensão interna entre os atributos — há unidade perfeita de essência", "A aparente tensão (amor vs. justiça) é resolvida na cruz, não eliminando um atributo, mas satisfazendo ambos"]
+  }
+  ]
+}

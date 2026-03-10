@@ -1,0 +1,78 @@
+{
+  "bookId": "tozer-em-busca-de-deus",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "draft",
+
+  "meta": {
+    "title": "Em Busca de Deus",
+    "subtitle": "A sede da alma pelo Deus vivo",
+    "originalTitle": "The Pursuit of God",
+    "author": {
+      "name": "A.W. Tozer",
+      "born": 1897,
+      "died": 1963,
+      "bio": "Aiden Wilson Tozer foi pastor, pregador e escritor americano que serviu na Christian and Missionary Alliance por mais de quarenta anos. Autodidata voraz, tornou-se um dos escritores devocionais mais influentes do século XX. Seus livros e sermões são marcados por uma sede incomum pela presença de Deus e uma recusa em se contentar com uma fé superficial. 'Em Busca de Deus', publicado em 1948, é considerado sua obra-prima."
+    },
+    "originalPublishedYear": 1948,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Edição original de 1948 em domínio público nos EUA (Project Gutenberg EBook #25141 — copyright não renovado). Tradução e adaptação própria da Escola Zoe.",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe a partir da edição de domínio público (Project Gutenberg). Linguagem atualizada para o português contemporâneo brasileiro, com adaptações que preservam fidelidade ao pensamento e à teologia do autor."
+    },
+    "featuredQuote": "Ter encontrado Deus e ainda assim continuar a buscá-Lo é o paradoxo da alma que ama — incompreendido pelo religioso facilmente satisfeito, mas justificado na experiência feliz dos filhos do coração ardente."
+  },
+
+  "classification": {
+    "category": "vida-crista",
+    "subcategory": "vida-devocional",
+    "tags": ["busca-de-deus", "vida-interior", "adoracao", "presenca-de-deus", "sede-espiritual"],
+    "difficulty": "introductory",
+    "audience": ["novos-crentes", "membros", "lideres"],
+    "readingLevel": "acessível"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "revelacao-escritura",
+      "lessonId": "FND-RE-04",
+      "relevance": "medium",
+      "note": "Tozer demonstra que a suficiência da Escritura não é doutrina fria — é o convite a um encontro vivo com o Deus que fala. A Palavra é suficiente porque o Deus que fala através dela é suficiente."
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 54,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "TZR-BD-01",
+      "order": 1,
+      "title": "Seguindo de Perto a Deus",
+      "file": "chapters/TZR-BD-01.md",
+      "estimatedMinutes": 18
+    },
+    {
+      "chapterId": "TZR-BD-02",
+      "order": 2,
+      "title": "A Bem-Aventurança de Não Possuir Nada",
+      "file": "chapters/TZR-BD-02.md",
+      "estimatedMinutes": 18
+    },
+    {
+      "chapterId": "TZR-BD-03",
+      "order": 3,
+      "title": "A Voz que Fala",
+      "file": "chapters/TZR-BD-03.md",
+      "estimatedMinutes": 18
+    }
+  ]
+}

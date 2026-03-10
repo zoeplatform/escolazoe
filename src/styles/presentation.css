@@ -1,0 +1,309 @@
+/* Página de Apresentação - Escola Zoe */
+
+.presentationPage {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+.presentationContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero Section */
+.presentationHero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 24px;
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.05) 0%, rgba(255, 27, 107, 0.05) 50%, rgba(123, 44, 191, 0.05) 100%);
+  text-align: center;
+  position: relative;
+}
+
+.presentationLogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.presentationTitle {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  background: linear-gradient(135deg, #FF6B35 0%, #FF1B6B 50%, #7B2CBF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1px;
+}
+
+.presentationTagline {
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0 0 32px 0;
+  font-weight: 500;
+}
+
+.presentationDescription {
+  font-size: 18px;
+  color: var(--text);
+  max-width: 600px;
+  margin: 0 auto 48px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Botões */
+.presentationActions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.presentationBtn {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease;
+  font-family: var(--font-body);
+}
+
+.presentationBtnPrimary {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF1B6B 50%, #7B2CBF 100%);
+  color: white;
+  box-shadow: 0 8px 20px rgba(255, 27, 107, 0.3);
+}
+
+.presentationBtnPrimary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(255, 27, 107, 0.4);
+}
+
+.presentationBtnSecondary {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--border);
+}
+
+.presentationBtnSecondary:hover {
+  border-color: var(--muted);
+  background: var(--panel);
+}
+
+.presentationBtnLarge {
+  padding: 16px 48px;
+  font-size: 18px;
+}
+
+/* Features Section */
+.presentationFeatures {
+  padding: 80px 24px;
+  background: var(--panel);
+}
+
+.presentationFeatures h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: var(--text);
+}
+
+.presentationGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.presentationFeatureCard {
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.presentationFeatureIcon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.presentationFeatureCard h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px 0;
+  color: var(--text);
+}
+
+.presentationFeatureCard p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* About Section */
+.presentationAbout {
+  padding: 80px 24px;
+  background: var(--bg);
+}
+
+.presentationAbout h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--text);
+}
+
+.presentationAbout p {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--text);
+  text-align: center;
+}
+
+/* CTA Section */
+.presentationCta {
+  padding: 80px 24px;
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(255, 27, 107, 0.1) 50%, rgba(123, 44, 191, 0.1) 100%);
+  text-align: center;
+}
+
+.presentationCta h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.presentationCta p {
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 40px;
+}
+
+/* Footer */
+.presentationFooter {
+  padding: 40px 24px;
+  background: var(--panel);
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.presentationFooterLinks {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.presentationFooterLinks a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.presentationFooterLinks a:hover {
+  color: var(--accent-solid);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .presentationHero {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+
+  .presentationLogo {
+    margin-bottom: 30px;
+  }
+
+  .presentationTitle {
+    font-size: 42px;
+  }
+
+  .presentationTagline {
+    font-size: 18px;
+  }
+
+  .presentationDescription {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .presentationActions {
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .presentationBtn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .presentationFeatures,
+  .presentationAbout,
+  .presentationCta {
+    padding: 60px 20px;
+  }
+
+  .presentationFeatures h2,
+  .presentationAbout h2,
+  .presentationCta h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .presentationGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .presentationFeatureCard {
+    padding: 30px 20px;
+  }
+
+  .presentationFeatureIcon {
+    font-size: 40px;
+  }
+
+  .presentationFooterLinks {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .presentationTitle {
+    font-size: 32px;
+  }
+
+  .presentationTagline {
+    font-size: 16px;
+  }
+
+  .presentationActions {
+    flex-direction: column;
+  }
+
+  .presentationBtn {
+    width: 100%;
+  }
+}

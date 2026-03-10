@@ -1,0 +1,78 @@
+{
+  "bookId": "spurgeon-palavra-viva",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "draft",
+
+  "meta": {
+    "title": "A Palavra Viva",
+    "subtitle": "A suficiência, o poder e a centralidade das Escrituras",
+    "originalTitle": "Sermon No. 15 — The Bible; Sermon No. 1866 — The Sunday School and the Scriptures",
+    "author": {
+      "name": "Charles H. Spurgeon",
+      "born": 1834,
+      "died": 1892,
+      "bio": "Charles Haddon Spurgeon, o 'Príncipe dos Pregadores', pastoreou a Igreja Metropolitan Tabernacle em Londres por 38 anos, pregando para até 10 mil pessoas por semana. Seus sermões foram publicados em 63 volumes e ainda hoje são lidos em todo o mundo. Spurgeon enfrentou o liberalismo teológico de sua época com coragem e humor, defendendo a suficiência e o poder transformador da Palavra de Deus como sua maior arma pastoral."
+    },
+    "originalPublishedYear": 1855,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Autor faleceu em 1892. Domínio público no Brasil desde 1963 (Lei 9.610/98, Art. 41 — 70 anos após a morte do autor).",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe. Linguagem atualizada para o português contemporâneo brasileiro, mantendo fidelidade teológica ao original."
+    },
+    "featuredQuote": "A Bíblia é sempre um livro novo. Não há uma página velha na Palavra de Deus — ela é tão fresca como se a tinta ainda não tivesse secado."
+  },
+
+  "classification": {
+    "category": "biblica",
+    "subcategory": "suficiencia-e-centralidade",
+    "tags": ["suficiencia-biblica", "palavra-de-deus", "pregacao", "vida-crista", "poder-da-escritura"],
+    "difficulty": "introductory",
+    "audience": ["novos-crentes", "membros", "lideres"],
+    "readingLevel": "acessível"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "revelacao-escritura",
+      "lessonId": "FND-RE-04",
+      "relevance": "high",
+      "note": "Spurgeon demonstra pastoralmente que a Bíblia é completamente suficiente — viva, poderosa e capaz de transformar qualquer vida sem precisar de acréscimos humanos."
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 48,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "SPG-PV-01",
+      "order": 1,
+      "title": "A Bíblia: Um Livro que Nunca Envelhece",
+      "file": "chapters/SPG-PV-01.md",
+      "estimatedMinutes": 16
+    },
+    {
+      "chapterId": "SPG-PV-02",
+      "order": 2,
+      "title": "A Palavra É Suficiente — Não Precisa de Ajuda",
+      "file": "chapters/SPG-PV-02.md",
+      "estimatedMinutes": 16
+    },
+    {
+      "chapterId": "SPG-PV-03",
+      "order": 3,
+      "title": "Pregue a Palavra — Em Todo Tempo",
+      "file": "chapters/SPG-PV-03.md",
+      "estimatedMinutes": 16
+    }
+  ]
+}

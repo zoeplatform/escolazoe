@@ -1,0 +1,19 @@
+// ─── PATCH: adicionar este import ao seu main.tsx existente ───────────────────
+// Cole esta linha junto dos outros imports de CSS no seu src/main.tsx:
+//
+//   import './styles/library.css';
+//
+// Exemplo de como deve ficar o seu main.tsx após o patch:
+//
+//   import React from 'react'
+//   import ReactDOM from 'react-dom/client'
+//   import { App } from './app/App'
+//   import './styles/globals.css'       // ← já existe
+//   import './styles/themes.css'        // ← já existe
+//   import './styles/library.css'       // ← ADICIONAR ESTA LINHA
+//   ...
+//   ReactDOM.createRoot(document.getElementById('root')!).render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>,
+//   )

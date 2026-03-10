@@ -1,0 +1,78 @@
+{
+  "bookId": "owen-autoridade-escritura",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "draft",
+
+  "meta": {
+    "title": "A Autoridade Divina das Escrituras",
+    "subtitle": "Da origem, certeza e poder autoevidente da Palavra de Deus",
+    "originalTitle": "Of the Divine Original of the Scriptures",
+    "author": {
+      "name": "John Owen",
+      "born": 1616,
+      "died": 1683,
+      "bio": "John Owen foi o maior teólogo puritano inglês do século XVII — pastor, vice-chanceler de Oxford e conselheiro de Oliver Cromwell. Escreveu com profundidade incomparável sobre o Espírito Santo, a morte do pecado e a autoridade das Escrituras. Seu tratado sobre a origem divina da Bíblia permanece uma das defesas mais rigorosas já escritas sobre Sola Scriptura."
+    },
+    "originalPublishedYear": 1659,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Autor faleceu em 1683. Domínio público no Brasil desde 1754 (Lei 9.610/98, Art. 41 — 70 anos após a morte do autor).",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe. Linguagem atualizada para o português contemporâneo brasileiro, mantendo fidelidade teológica ao original."
+    },
+    "featuredQuote": "A Escritura não recebe sua autoridade de nenhuma Igreja, concílio ou tradição humana — ela a possui por si mesma, porque é a fala direta de Deus ao homem."
+  },
+
+  "classification": {
+    "category": "biblica",
+    "subcategory": "autoridade-e-inspiracao",
+    "tags": ["sola-scriptura", "autoridade-biblica", "palavra-de-deus", "espirito-santo", "puritanos"],
+    "difficulty": "intermediate",
+    "audience": ["membros", "lideres"],
+    "readingLevel": "intermediário"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "revelacao-escritura",
+      "lessonId": "FND-RE-01",
+      "relevance": "high",
+      "note": "Owen responde diretamente à questão central da lição: de onde vem a autoridade da Bíblia e por que devemos obedecê-la."
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 55,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "OWN-AE-01",
+      "order": 1,
+      "title": "De Onde Vem a Autoridade da Bíblia?",
+      "file": "chapters/OWN-AE-01.md",
+      "estimatedMinutes": 18
+    },
+    {
+      "chapterId": "OWN-AE-02",
+      "order": 2,
+      "title": "Como Reconhecemos a Palavra de Deus",
+      "file": "chapters/OWN-AE-02.md",
+      "estimatedMinutes": 18
+    },
+    {
+      "chapterId": "OWN-AE-03",
+      "order": 3,
+      "title": "O Espírito Santo e a Certeza Final",
+      "file": "chapters/OWN-AE-03.md",
+      "estimatedMinutes": 19
+    }
+  ]
+}

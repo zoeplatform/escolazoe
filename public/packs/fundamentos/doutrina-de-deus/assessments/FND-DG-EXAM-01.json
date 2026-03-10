@@ -1,0 +1,847 @@
+{
+  "examId": "FND-DG-EXAM-01",
+  "moduleId": "fundamentos-doutrina-de-deus",
+  "courseId": "fundamentos",
+  "title": "Avaliação Final — Módulo 2: Doutrina de Deus",
+  "version": "1.0.0",
+  "createdAt": "2026-03-08",
+  "passingScore": 70,
+  "totalPoints": 100,
+  "estimatedMinutes": 60,
+  "instructions": "Esta avaliação cobre os três temas do Módulo 2: Existência e Revelação de Deus (FND-DG-01), Atributos de Deus (FND-DG-02) e A Trindade (FND-DG-03). Leia cada questão com atenção antes de responder. A Seção IV (Dissertativas) será corrigida pelo seu líder — escreva com clareza e precisão teológica.",
+  "coverageMap": {
+    "FND-DG-01": ["Q01","Q02","Q03","Q04","Q05","Q06","Q07","Q08","Q09","Q20","Q21","Q22"],
+    "FND-DG-02": ["Q10","Q11","Q12","Q13","Q14","Q23","Q24","Q25"],
+    "FND-DG-03": ["Q15","Q16","Q17","Q18","Q19","Q26","Q27","Q28","Q29","Q30"]
+  },
+  "sections": [
+    {
+      "sectionId": "S1",
+      "title": "Seção I — Múltipla Escolha",
+      "description": "Escolha a alternativa que melhor responde a cada questão. Cada questão vale 2 pontos.",
+      "totalPoints": 50,
+      "questions": [
+        {
+          "id": "Q01",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "Revelação geral é o conhecimento de Deus disponível:",
+          "options": {
+            "A": "Apenas aos que têm acesso à Bíblia e ao ensino cristão.",
+            "B": "A todos os seres humanos em todos os tempos, por meio da criação, providência e consciência.",
+            "C": "Somente aos profetas e apóstolos que receberam revelação direta.",
+            "D": "Aos crentes que buscam Deus com sinceridade de coração."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Revelação geral é universal — disponível a toda a humanidade pela criação (Sl 19.1), providência (At 17.26-28) e consciência moral (Rm 2.14-15). Não depende do acesso à Escritura."
+          }
+        },
+        {
+          "id": "Q02",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "Segundo Romanos 1.20, o resultado da revelação geral é que os seres humanos são:",
+          "options": {
+            "A": "Automaticamente salvos pelo conhecimento de Deus na criação.",
+            "B": "Incapazes de conhecer Deus sem a ajuda da revelação especial.",
+            "C": "Indesculpáveis diante de Deus, pois seu poder e divindade são claramente percebidos.",
+            "D": "Responsabilizados apenas se tiveram acesso ao evangelho e o rejeitaram."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "Paulo é explícito: os atributos invisíveis de Deus são 'claramente reconhecidos' desde a criação, tornando os seres humanos 'indesculpáveis'. A revelação geral responsabiliza — não salva."
+          }
+        },
+        {
+          "id": "Q03",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "Qual dos seguintes NÃO é um meio clássico de revelação geral?",
+          "options": {
+            "A": "A criação e o universo físico.",
+            "B": "A consciência moral universal.",
+            "C": "A pregação do evangelho por missionários.",
+            "D": "A providência e o governo de Deus sobre a história."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "A pregação do evangelho é meio de revelação especial — pressupõe a Palavra de Deus e comunica o conteúdo salvífico. Os três meios clássicos da revelação geral são: criação, providência e consciência moral."
+          }
+        },
+        {
+          "id": "Q04",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "O argumento teleológico para a existência de Deus afirma que:",
+          "options": {
+            "A": "O design complexo e específico do universo pressupõe um designer inteligente.",
+            "B": "Toda existência contingente requer uma causa não contingente.",
+            "C": "A ideia de um ser absolutamente perfeito implica sua existência necessária.",
+            "D": "A existência de obrigação moral universal pressupõe um legislador moral transcendente."
+          },
+          "answerKey": {
+            "correct": "A",
+            "rationale": "O argumento teleológico parte do design (telos = finalidade): a complexidade e o ajuste fino do universo apontam para um projetista inteligente. O cosmológico parte da causalidade; o ontológico, da perfeição; o moral, da lei moral."
+          }
+        },
+        {
+          "id": "Q05",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "O argumento pressuposicional de Van Til sustenta que:",
+          "options": {
+            "A": "A razão humana pode provar a existência de Deus independentemente da revelação.",
+            "B": "A existência de Deus é pressuposta pela própria possibilidade de raciocinar, usar lógica e conhecer qualquer coisa.",
+            "C": "Os argumentos clássicos são suficientes para conduzir o incrédulo à fé.",
+            "D": "Deus só pode ser conhecido por revelação direta e sobrenatural, nunca por inferência racional."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Van Til vai ao nível dos pressupostos: sem o Deus da Escritura como fundamento, não há base para leis lógicas, regularidade do universo ou linguagem. O ateísta usa dons de Deus para negar Deus — contradição interna."
+          }
+        },
+        {
+          "id": "Q06",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A revelação especial encontra seu ápice em:",
+          "options": {
+            "A": "Os escritos dos profetas do AT, especialmente Isaías e Jeremias.",
+            "B": "Os Salmos, que expressam a mais profunda comunhão com Deus.",
+            "C": "Jesus Cristo, o Filho, por quem Deus falou de forma definitiva (Hb 1.1-2).",
+            "D": "O Novo Testamento completo, que supera e substitui o AT."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "Hebreus 1.1-2 estabelece progressão clara: após falar de muitas formas pelos profetas, Deus falou definitivamente pelo Filho. Cristo não é apenas portador de revelação — ele *é* a revelação (Jo 14.9; Jo 1.18)."
+          }
+        },
+        {
+          "id": "Q07",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "O panteísmo difere da teologia cristã porque:",
+          "options": {
+            "A": "Nega a existência de Deus, afirmando que o universo é a única realidade.",
+            "B": "Identifica Deus com o universo, eliminando a distinção fundamental Criador-criatura.",
+            "C": "Afirma que Deus existe mas não está envolvido com o universo que criou.",
+            "D": "Ensina que há múltiplos deuses, cada um responsável por uma área da criação."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Panteísmo: Deus = tudo. Isso elimina a distinção Criador-criatura fundamental à teologia bíblica. Deus não é o universo — é o Criador radicalmente distinto de e anterior à sua criação."
+          }
+        },
+        {
+          "id": "Q08",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "advanced",
+          "question": "Segundo o Salmo 14.1, o ateísmo é descrito biblicamente como:",
+          "options": {
+            "A": "Uma posição intelectual legítima resultante de evidências insuficientes para a existência de Deus.",
+            "B": "Uma conclusão racional válida para quem não teve acesso à revelação especial.",
+            "C": "Uma recusa moral — insensatez do coração — não uma conclusão intelectual neutra.",
+            "D": "Um estágio transitório no caminho para a fé, compreensível e sem consequências morais."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "'O tolo disse no seu coração: Não há Deus.' O texto aponta para a raiz moral do ateísmo — é recusa volitiva, não conclusão racional. Paulo confirma em Rm 1.18-21: conhecimento suprimido, não ausente."
+          }
+        },
+        {
+          "id": "Q09",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "O argumento moral para a existência de Deus (Rm 2.14-15) parte de:",
+          "options": {
+            "A": "A regularidade das leis naturais como prova de um legislador cósmico.",
+            "B": "A universalidade da obrigação moral como evidência de um legislador moral transcendente.",
+            "C": "A experiência religiosa universal como evidência de uma realidade divina.",
+            "D": "A necessidade de um padrão externo para a ciência prognosticar o futuro."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Romanos 2.14-15 afirma que a lei moral está escrita no coração de todos os seres humanos. A universalidade do senso moral — que transcende culturas — pressupõe um Legislador moral que transcende a humanidade."
+          }
+        },
+        {
+          "id": "Q10",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "A 'simplicidade divina' significa que:",
+          "options": {
+            "A": "Deus é simples de compreender quando abordado com fé humilde.",
+            "B": "Deus não é composto de partes — cada atributo é Deus inteiramente visto de um ângulo específico.",
+            "C": "Deus possui apenas um atributo central do qual todos os outros derivam.",
+            "D": "A teologia de Deus deve ser apresentada em linguagem simples e acessível."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Simplicidade divina: Deus não é composto de partes ou atributos separados que se somam. O amor de Deus é santo; a santidade é amorosa; a justiça é misericordiosa. Há unidade perfeita na essência divina."
+          }
+        },
+        {
+          "id": "Q11",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "Qual dos seguintes é um atributo INCOMUNICÁVEL de Deus?",
+          "options": {
+            "A": "Amor",
+            "B": "Justiça",
+            "C": "Bondade",
+            "D": "Eternidade"
+          },
+          "answerKey": {
+            "correct": "D",
+            "rationale": "Eternidade é atributo exclusivamente divino — nenhuma criatura existe fora do tempo. Amor, justiça e bondade são atributos comunicáveis: Deus os possui em grau infinito e perfeito, e os partilhou com os seres humanos feitos à sua imagem."
+          }
+        },
+        {
+          "id": "Q12",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A santidade de Deus é o único atributo repetido três vezes consecutivas na Escritura. Essa ênfase indica que:",
+          "options": {
+            "A": "A santidade é mais importante que o amor de Deus, que deve ser subordinado a ela.",
+            "B": "A santidade descreve a separação radical e a absoluta perfeição moral de Deus — é central para compreender quem ele é.",
+            "C": "Deus requer que os crentes sejam completamente santos antes de se aproximarem dele.",
+            "D": "A santidade é atributo exclusivo do AT; no NT o amor é o atributo central."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Is 6.3 e Ap 4.8 — o único atributo com repetição tripla em ambos os Testamentos. Santidade significa separação radical de tudo impuro e absoluta perfeição moral. Ela explica por que o pecado é tão sério e a expiação tão necessária."
+          }
+        },
+        {
+          "id": "Q13",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A diferença entre misericórdia e graça de Deus é que:",
+          "options": {
+            "A": "Misericórdia é do AT; graça é exclusiva do NT.",
+            "B": "Misericórdia é o amor em direção ao sofrimento e miséria; graça é o favor imerecido em direção ao culpado.",
+            "C": "Misericórdia é para os crentes; graça é para toda a humanidade.",
+            "D": "Graça é maior que misericórdia e por isso cobre pecados mais graves."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Distinção clássica: misericórdia (hesed/eleos) é o amor divino que responde à miséria e sofrimento; graça (chen/charis) é o favor absolutamente imerecido concedido ao culpado. São faces do mesmo amor divino dirigidas a aspectos distintos da condição humana."
+          }
+        },
+        {
+          "id": "Q14",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "advanced",
+          "question": "Romanos 3.25-26 demonstra que na cruz, Deus:",
+          "options": {
+            "A": "Escolheu o amor em detrimento da justiça para salvar a humanidade.",
+            "B": "Demonstrou justiça ao punir o pecado em Cristo, sendo justo e justificador ao mesmo tempo.",
+            "C": "Suspendeu temporariamente sua justiça para permitir o perdão dos pecadores.",
+            "D": "Revelou que seu amor é maior e mais central que sua justiça."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Paulo afirma que Deus apresentou Cristo como propiciação 'para demonstrar a sua justiça' e 'para ser justo e o justificador'. A cruz não sacrifica um atributo pelo outro — honra ambos simultaneamente: justiça satisfeita, amor manifestado."
+          }
+        },
+        {
+          "id": "Q15",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-03",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "A formulação ortodoxa da doutrina trinitária afirma:",
+          "options": {
+            "A": "Três deuses distintos que trabalham em harmonia para a redenção humana.",
+            "B": "Um Deus que se manifesta em três modos ou fases distintas na história.",
+            "C": "Um Deus em três pessoas coiguais, coeternas e consubstanciais — Pai, Filho e Espírito Santo.",
+            "D": "Um Deus Pai supremo, um Filho divino subordinado e uma força espiritual impessoal."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "A formulação trinitária ortodoxa: um Deus (monoteísmo), três pessoas reais e distintas (não modos), coiguais (sem hierarquia de divindade), coeternas (nenhuma começou a existir), consubstanciais (mesma essência divina)."
+          }
+        },
+        {
+          "id": "Q16",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-03",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "O Concílio de Niceia (325 d.C.) foi convocado para responder ao arianismo, que ensinava que:",
+          "options": {
+            "A": "Deus era três seres distintos e não havia unidade entre eles.",
+            "B": "O Filho era idêntico ao Pai, sem qualquer distinção real entre eles.",
+            "C": "O Filho era a mais elevada das criaturas, mas não era Deus em sentido pleno.",
+            "D": "O Espírito Santo era superior ao Pai e ao Filho na economia da salvação."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "Ário ensinava que 'houve um tempo em que o Filho não existia' — o Filho seria a primeira e mais elevada criatura, mas criatura. Niceia respondeu com homoousios: o Filho é da mesma substância que o Pai, não semelhante ou inferior."
+          }
+        },
+        {
+          "id": "Q17",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-03",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A 'pericórese' trinitária descreve:",
+          "options": {
+            "A": "A sequência em que as três pessoas agiram na história da redenção.",
+            "B": "A habitação e interpenetração mútua das três pessoas, mantendo suas distinções.",
+            "C": "A subordinação econômica do Filho ao Pai no plano da salvação.",
+            "D": "A fusão das três pessoas em um único ser após a glorificação."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Pericórese (ou circuminsessio em latim): as três pessoas habitam mutuamente e se interpenetram perfeitamente — sem fusão (que eliminaria distinções) e sem separação (que produziria triteísmo). É comunhão perfeita na distinção."
+          }
+        },
+        {
+          "id": "Q18",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-03",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "João 1.1 — 'o Verbo estava com Deus, e o Verbo era Deus' — demonstra simultaneamente:",
+          "options": {
+            "A": "Que o Verbo e Deus são o mesmo ser sem distinção, e que o Verbo é divino.",
+            "B": "A distinção real de pessoa ('estava com Deus') e a identidade de essência ('era Deus').",
+            "C": "Que havia dois deuses no princípio — Deus e o Verbo — que depois se tornaram um.",
+            "D": "Que o Verbo era divino no princípio, mas se tornou humano ao ser enviado ao mundo."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "'Estava com Deus' (pros ton Theon) = distinção real: o Verbo é distinto do Pai. 'Era Deus' (Theos en) = identidade de essência: o Verbo é da natureza divina. O versículo é uma formulação trinitária comprimida."
+          }
+        },
+        {
+          "id": "Q19",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-03",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "advanced",
+          "question": "A distinção entre 'subordinação econômica' e 'subordinação ontológica' é importante porque:",
+          "options": {
+            "A": "Permite afirmar que o Filho é inferior ao Pai em essência, como os arianos ensinavam.",
+            "B": "Explica como o Filho pode obedecer ao Pai no plano redentor sem ser inferior a ele em ser ou dignidade.",
+            "C": "Define que o Espírito Santo é subordinado tanto ao Pai quanto ao Filho em essência.",
+            "D": "Justifica a adoração ao Pai como a única forma legítima de adoração trinitária."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Subordinação econômica: o Filho obedece ao Pai no plano da redenção (Jo 4.34; Fp 2.8) — missão, não inferioridade. Subordinação ontológica afirmaria inferioridade de essência — heresia. O Filho pode ser enviado sem ser menor."
+          }
+        },
+        {
+          "id": "Q20",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "O argumento ontológico (Anselmo) parte da afirmação de que Deus é:",
+          "options": {
+            "A": "A causa necessária de toda existência contingente no universo.",
+            "B": "O legislador moral que fundamenta toda obrigação ética objetiva.",
+            "C": "Aquilo do qual nada maior pode ser concebido — e por isso existe necessariamente.",
+            "D": "O designer que projetou a complexidade e o ajuste fino do universo."
+          },
+          "answerKey": {
+            "correct": "C",
+            "rationale": "Anselmo: 'Deus é aquilo do qual nada maior pode ser concebido.' Se esse ser não existisse na realidade, algo maior (o mesmo ser existindo) poderia ser concebido — contradição. Logo, a ideia de Deus implica sua necessária existência."
+          }
+        },
+        {
+          "id": "Q21",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "Hebreus 1.3 descreve o Filho como 'o resplendor da glória de Deus e a expressão exata do seu ser'. Isso indica:",
+          "options": {
+            "A": "Que o Filho é um reflexo derivado de Deus, semelhante mas não igual a ele.",
+            "B": "Que o Filho revela perfeitamente quem Deus é — sendo a revelação especial definitiva.",
+            "C": "Que o Filho existiu apenas durante o período de sua encarnação terrena.",
+            "D": "Que a revelação de Deus pelo Filho é complementada igualmente pela criação."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Hebreus 1.3 usa 'charakter' (impressão exata) — o Filho não é cópia aproximada, mas expressão perfeita e idêntica da essência do Pai. João 14.9: 'quem me viu, viu o Pai.' Cristo é a revelação especial em sua forma mais plena e direta."
+          }
+        },
+        {
+          "id": "Q22",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-01",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A crítica do liberalismo teológico à doutrina tradicional de Deus (Feuerbach) afirma que:",
+          "options": {
+            "A": "Deus existe mas não pode ser conhecido por meios racionais.",
+            "B": "A ideia de Deus é projeção da essência humana objetificada — teologia é apenas antropologia.",
+            "C": "Deus revela-se exclusivamente na experiência religiosa interior do ser humano.",
+            "D": "A doutrina trinitária é incompatível com o monoteísmo bíblico."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Feuerbach: 'A teologia é a antropologia.' Deus seria a essência humana idealizada e projetada. A resposta ortodoxa: se Deus é projeção, não há revelação — há apenas autopercepção. Mas a revelação bíblica frequentemente *contraria* as preferências humanas, o que contradiz a teoria da projeção."
+          }
+        },
+        {
+          "id": "Q23",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "basic",
+          "question": "A fidelidade (veracidade) de Deus significa que:",
+          "options": {
+            "A": "Deus mantém suas promessas quando os seres humanos cumprem suas obrigações.",
+            "B": "Deus é completamente verdadeiro em seu ser e confiável em suas promessas — ele nunca mente.",
+            "C": "As promessas de Deus no AT foram cumpridas e as do NT ainda aguardam cumprimento.",
+            "D": "A fidelidade de Deus está condicionada à fidelidade da comunidade cristã."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Números 23.19 — 'Deus não é homem, para que minta.' Hebreus 10.23 — 'Fiel é o que prometeu.' A fidelidade de Deus é incondicional — não depende do desempenho humano para ser ativada. É o fundamento da confiança cristã."
+          }
+        },
+        {
+          "id": "Q24",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "intermediate",
+          "question": "A teologia do processo (Whitehead, Hartshorne) nega os atributos divinos clássicos, especialmente:",
+          "options": {
+            "A": "A onipresença e a onisciência de Deus.",
+            "B": "A imutabilidade e a onipotência — afirmando que Deus aprende e é afetado pela criação.",
+            "C": "A bondade e a misericórdia de Deus em relação à humanidade pecadora.",
+            "D": "A justiça divina, substituindo-a por amor incondicional sem julgamento."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "A teologia do processo nega imutabilidade (Deus muda ao aprender com a criação) e onipotência (Deus não pode fazer tudo — apenas persuadir). É ruptura com a fé histórica: um Deus que muda e aprende não é o Deus das Escrituras."
+          }
+        },
+        {
+          "id": "Q25",
+          "sectionId": "S1",
+          "lessonRef": "FND-DG-02",
+          "type": "multiple_choice",
+          "points": 2,
+          "difficulty": "advanced",
+          "question": "Qual atributo de Deus garante que todas as coisas 'cooperam para o bem dos que amam a Deus' (Rm 8.28)?",
+          "options": {
+            "A": "Apenas o amor de Deus — que torna tudo positivo independentemente das circunstâncias.",
+            "B": "A soberania aliada à bondade — Deus governa sobre tudo e é essencialmente bom.",
+            "C": "A onisciência — Deus sabe o futuro e pode garantir resultados positivos.",
+            "D": "A fidelidade — Deus prometeu e por isso é obrigado a cumprir independentemente de sua vontade."
+          },
+          "answerKey": {
+            "correct": "B",
+            "rationale": "Romanos 8.28 pressupõe dois atributos combinados: soberania (Deus governa sobre todas as circunstâncias) e bondade (Deus é essencialmente bom e age para o bem de seus filhos). Um Deus soberano mas não bom seria ameaça; um Deus bom mas não soberano, impotente."
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "S2",
+      "title": "Seção II — Verdadeiro ou Falso",
+      "description": "Indique se cada afirmação é Verdadeira (V) ou Falsa (F). Cada item vale 1 ponto.",
+      "totalPoints": 10,
+      "questions": [
+        {
+          "id": "Q26",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-01",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "basic",
+          "statement": "A revelação geral é suficiente para conduzir o ser humano à salvação, desde que ele responda a ela com sinceridade.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. A revelação geral é suficiente para responsabilizar (Rm 1.20) mas insuficiente para a salvação. Ela não revela o evangelho de Cristo. Por isso a revelação especial e a pregação são necessárias (Rm 10.14-17)."
+          }
+        },
+        {
+          "id": "Q27",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-01",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "basic",
+          "statement": "O Salmo 19 apresenta tanto a revelação geral (os céus proclamando a glória de Deus) quanto a revelação especial (a lei do Senhor que restaura a alma).",
+          "answerKey": {
+            "correct": true,
+            "rationale": "VERDADEIRO. Salmo 19.1-6 descreve os céus proclamando a glória de Deus (revelação geral pela criação). Salmo 19.7-14 apresenta a lei do Senhor que restaura, ilumina e santifica (revelação especial pela Palavra)."
+          }
+        },
+        {
+          "id": "Q28",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-02",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "basic",
+          "statement": "A onipotência de Deus significa que ele pode fazer qualquer coisa, inclusive o logicamente contraditório, como criar um círculo quadrado.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. A onipotência de Deus significa que ele pode fazer tudo o que é consistente com sua natureza. Contradições lógicas (como círculo quadrado) não são limitações da onipotência — são simplesmente nonsense. Deus não pode mentir (Hb 6.18) ou negar a si mesmo (2Tm 2.13)."
+          }
+        },
+        {
+          "id": "Q29",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-02",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "intermediate",
+          "statement": "A imutabilidade de Deus significa que ele nunca age de formas diferentes em diferentes momentos da história.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. Imutabilidade refere-se à estabilidade do ser, caráter e propósitos de Deus — não à uniformidade de suas ações. Deus pode agir de formas distintas na história (ex: diferentemente sob a Lei e sob a graça) sem mudar sua essência ou caráter."
+          }
+        },
+        {
+          "id": "Q30",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-03",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "basic",
+          "statement": "O arianismo, condenado em Niceia, ensinava que o Filho era eterno e da mesma substância que o Pai, mas subordinado a ele em autoridade.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. O arianismo ensinava que o Filho era criatura — a mais elevada, mas criatura. 'Houve um tempo em que o Filho não existia.' Niceia condenou isso afirmando o homoousios: o Filho é da mesma substância (não subordinado em ser, mas coeterno e coigual)."
+          }
+        },
+        {
+          "id": "Q31",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-03",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "intermediate",
+          "statement": "O modalismo (Sabelianismo) afirma que há três deuses distintos — Pai, Filho e Espírito Santo — que atuam em perfeita harmonia.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. O modalismo afirma exatamente o contrário: um único Deus que se manifesta em três modos sequenciais, não três pessoas distintas. Três deuses em harmonia seria triteísmo — heresia diferente do modalismo."
+          }
+        },
+        {
+          "id": "Q32",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-03",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "intermediate",
+          "statement": "O Espírito Santo é apresentado nas Escrituras como pessoa divina — não como força impessoal — pois ensina, guia, intercede e pode ser contristado.",
+          "answerKey": {
+            "correct": true,
+            "rationale": "VERDADEIRO. Ações pessoais atribuídas ao Espírito: ensina (Jo 14.26), guia (Jo 16.13), intercede (Rm 8.26), pode ser contristado (Ef 4.30), pode ser blasfemado (Mt 12.31-32). Forças impessoais não ensinam, interceder nem são ofendidas."
+          }
+        },
+        {
+          "id": "Q33",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-01",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "intermediate",
+          "statement": "O argumento cosmológico para a existência de Deus é idêntico ao argumento teleológico — ambos partem do design do universo.",
+          "answerKey": {
+            "correct": false,
+            "rationale": "FALSO. Cosmológico parte da contingência e causalidade: o universo requer uma causa necessária. Teleológico parte do design e finalidade: a complexidade do universo pressupõe um designer. São argumentos distintos com premissas diferentes."
+          }
+        },
+        {
+          "id": "Q34",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-02",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "basic",
+          "statement": "1 João 4.8 afirma que 'Deus é amor' — indicando que o amor não é apenas atividade de Deus, mas sua própria essência.",
+          "answerKey": {
+            "correct": true,
+            "rationale": "VERDADEIRO. 'Deus é amor' (1Jo 4.8,16) usa a construção 'é' de identidade, não apenas de descrição. O amor não é apenas algo que Deus faz — é o que ele é. Isso é consistente com a simplicidade divina: Deus não tem amor como posse; ele é amor em sua essência."
+          }
+        },
+        {
+          "id": "Q35",
+          "sectionId": "S2",
+          "lessonRef": "FND-DG-03",
+          "type": "true_false",
+          "points": 1,
+          "difficulty": "advanced",
+          "statement": "A grande comissão (Mt 28.19) possui estrutura trinitária: batismo 'em nome' (singular — unidade) do Pai e do Filho e do Espírito (distinção tripla).",
+          "answerKey": {
+            "correct": true,
+            "rationale": "VERDADEIRO. 'Em nome' (singular — eis to onoma) aponta para a unidade de essência. A tripla designação Pai, Filho e Espírito aponta para a distinção real das três pessoas. Essa estrutura única é evidência bíblica direta da doutrina trinitária."
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "S3",
+      "title": "Seção III — Associação de Conceitos",
+      "description": "Associe cada termo da Coluna A com sua definição correta na Coluna B. Cada associação correta vale 1 ponto.",
+      "totalPoints": 8,
+      "questions": [
+        {
+          "id": "Q36",
+          "sectionId": "S3",
+          "lessonRef": "FND-DG-01",
+          "type": "matching",
+          "points": 8,
+          "difficulty": "intermediate",
+          "instruction": "Associe cada conceito (Coluna A) à sua definição ou descrição correta (Coluna B).",
+          "columnA": [
+            { "itemId": "A1", "term": "Homoousios" },
+            { "itemId": "A2", "term": "Aseidade" },
+            { "itemId": "A3", "term": "Pericórese" },
+            { "itemId": "A4", "term": "Modalismo" },
+            { "itemId": "A5", "term": "Revelação geral" },
+            { "itemId": "A6", "term": "Arianismo" },
+            { "itemId": "A7", "term": "Imutabilidade" },
+            { "itemId": "A8", "term": "Filioque" }
+          ],
+          "columnB": [
+            { "itemId": "B1", "definition": "Heresia que ensina que o Filho é a mais elevada das criaturas, negando sua plena divindade." },
+            { "itemId": "B2", "definition": "Habitação e interpenetração mútua das três pessoas trinitárias, mantendo suas distinções." },
+            { "itemId": "B3", "definition": "Autoexistência de Deus — ele existe por si mesmo, sem dependência de nada externo." },
+            { "itemId": "B4", "definition": "Conhecimento de Deus disponível a todos pela criação, providência e consciência moral." },
+            { "itemId": "B5", "definition": "Heresia que afirma que Deus é um único ser que se manifesta em três modos sequenciais." },
+            { "itemId": "B6", "definition": "Atributo que declara que Deus não muda em seu ser, caráter ou propósitos." },
+            { "itemId": "B7", "definition": "Expressão latina que afirma que o Espírito procede do Pai 'e do Filho'." },
+            { "itemId": "B8", "definition": "Termo grego afirmado em Niceia: o Filho é da mesma substância que o Pai." }
+          ],
+          "answerKey": {
+            "correct": {
+              "A1": "B8",
+              "A2": "B3",
+              "A3": "B2",
+              "A4": "B5",
+              "A5": "B4",
+              "A6": "B1",
+              "A7": "B6",
+              "A8": "B7"
+            },
+            "pointsPerMatch": 1,
+            "rationale": "Homoousios=B8 (mesma substância, Niceia); Aseidade=B3 (autoexistência); Pericórese=B2 (interpenetração trinitária); Modalismo=B5 (três modos, não pessoas); Revelação geral=B4 (criação/consciência); Arianismo=B1 (Filho como criatura); Imutabilidade=B6 (Deus não muda); Filioque=B7 (Espírito do Pai e do Filho)."
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "S4",
+      "title": "Seção IV — Questões Dissertativas",
+      "description": "Responda a cada questão com desenvolvimento teológico claro e preciso. Cite referências bíblicas quando possível. Cada questão vale 8 pontos e será corrigida pelo seu líder com base na rubrica.",
+      "totalPoints": 32,
+      "questions": [
+        {
+          "id": "Q37",
+          "sectionId": "S4",
+          "lessonRef": "FND-DG-01",
+          "type": "essay",
+          "points": 8,
+          "difficulty": "advanced",
+          "question": "Explique a diferença entre revelação geral e revelação especial, incluindo: (a) os meios de cada uma, (b) o que cada uma alcança ou não alcança, e (c) por que ambas são necessárias para uma teologia bíblica completa. Use pelo menos duas referências bíblicas.",
+          "answerKey": {
+            "gradingMode": "holistic_rubric",
+            "modelAnswer": "A revelação geral é o conhecimento de Deus disponível universalmente por meio da criação (Sl 19.1; Rm 1.20), da providência histórica (At 17.26-28) e da consciência moral (Rm 2.14-15). Ela é suficiente para responsabilizar todos os seres humanos — tornando-os 'indesculpáveis' (Rm 1.20) — mas insuficiente para conduzir à salvação, pois não revela o evangelho de Cristo nem o caminho da redenção. A revelação especial é a revelação de Deus por meios específicos e salvíficos: seus atos redentivos na história (êxodo, encarnação, ressurreição), as Escrituras como Palavra escrita e normativa, e supremamente Jesus Cristo — a revelação definitiva do Pai (Hb 1.1-2; Jo 1.18). A revelação especial é necessária porque comunica o que a geral não pode: a natureza do pecado, a graça redentora, o evangelho de Cristo. Ambas são necessárias: a revelação geral fundamenta a responsabilidade universal e a apologética; a especial fundamenta a salvação e a vida cristã.",
+            "rubric": {
+              "8": "Define ambas as formas com precisão, apresenta três meios da geral, distingue claramente o que alcança cada uma, explica por que ambas são necessárias, cita pelo menos duas referências bíblicas relevantes.",
+              "6": "Define ambas corretamente, apresenta pelo menos dois meios da geral, distingue o alcance das duas com clareza, cita ao menos uma referência bíblica.",
+              "4": "Define uma das formas com clareza e a outra parcialmente, faz a distinção principal mas de forma incompleta, pode citar ou não referência bíblica.",
+              "2": "Aborda o tema superficialmente, confunde aspectos das duas formas ou omite a distinção principal.",
+              "0": "Não demonstra compreensão do tema ou responde sobre assunto diferente."
+            },
+            "keyPoints": [
+              "Revelação geral: criação, providência, consciência moral — universal, responsabilizadora",
+              "Revelação geral: insuficiente para salvação — não revela o evangelho",
+              "Revelação especial: Escritura, atos redentivos, Cristo — salvífica e normativa",
+              "Hb 1.1-2: Cristo como ápice da revelação especial",
+              "Rm 1.20: indesculpáveis pela revelação geral",
+              "Ambas necessárias: geral para responsabilidade e apologética; especial para salvação"
+            ]
+          }
+        },
+        {
+          "id": "Q38",
+          "sectionId": "S4",
+          "lessonRef": "FND-DG-02",
+          "type": "essay",
+          "points": 8,
+          "difficulty": "advanced",
+          "question": "Escolha três atributos de Deus (pelo menos um incomunicável e um comunicável) e explique: (a) o que cada um significa, (b) como as Escrituras o ensinam, e (c) que implicação prática esse atributo tem para a vida cristã.",
+          "answerKey": {
+            "gradingMode": "holistic_rubric",
+            "modelAnswer": "Resposta exemplar cobrindo três atributos: (1) SANTIDADE (incomunicável em grau — comunicável em participação derivada): Deus é radicalmente separado de tudo impuro e é o padrão absoluto da perfeição moral (Is 6.3; Ap 4.8). Implicação: o pecado é sério porque ofende o infinitamente santo; o crente é chamado à santidade (1Pe 1.15-16). (2) IMUTABILIDADE (incomunicável): Deus não muda em ser, caráter ou propósitos (Ml 3.6; Tg 1.17). Implicação: suas promessas são confiáveis; ele é âncora na instabilidade. (3) AMOR (comunicável): Deus é amor em sua essência (1Jo 4.8); demonstrado na cruz (Jo 3.16). Implicação: o crente ama porque Deus primeiro o amou (1Jo 4.19); o amor é marca distintiva do discípulo (Jo 13.35).",
+            "rubric": {
+              "8": "Apresenta três atributos com definição precisa, base bíblica e implicação prática para cada um. Inclui pelo menos um incomunicável e um comunicável com distinção clara.",
+              "6": "Apresenta três atributos com definição e pelo menos uma implicação prática, base bíblica para ao menos dois.",
+              "4": "Apresenta dois atributos adequadamente ou três de forma incompleta, com alguma base bíblica.",
+              "2": "Aborda atributos de forma muito superficial, sem distinção incomunicável/comunicável ou sem aplicação prática.",
+              "0": "Não aborda os atributos de Deus de forma reconhecível."
+            },
+            "keyPoints": [
+              "Pelo menos um atributo incomunicável: eternidade, onipotência, onisciência, imutabilidade, soberania",
+              "Pelo menos um atributo comunicável: amor, santidade (em grau derivado), justiça, bondade, fidelidade",
+              "Definição precisa de cada atributo escolhido",
+              "Pelo menos uma referência bíblica por atributo",
+              "Implicação prática concreta para a vida cristã de cada atributo"
+            ]
+          }
+        },
+        {
+          "id": "Q39",
+          "sectionId": "S4",
+          "lessonRef": "FND-DG-03",
+          "type": "essay",
+          "points": 8,
+          "difficulty": "advanced",
+          "question": "Explique por que a doutrina da Trindade é considerada essencial ao evangelho cristão e não apenas uma construção filosófica posterior. Em sua resposta, aborde: (a) o fundamento bíblico da doutrina, (b) por que a negação da plena divindade do Filho (arianismo) destrói a redenção, e (c) como a Trindade estrutura a oração e a missão da Igreja.",
+          "answerKey": {
+            "gradingMode": "holistic_rubric",
+            "modelAnswer": "A Trindade não é construção filosófica — é o pressuposto do evangelho. Fundamentação bíblica: João 1.1 afirma ao mesmo tempo a distinção ('estava com Deus') e a identidade de essência ('era Deus'); Mateus 3.16-17 apresenta as três pessoas simultaneamente no batismo de Jesus; Mateus 28.19 estrutura o batismo em nome do Pai, Filho e Espírito. Quanto ao arianismo: se o Filho é criatura — mesmo a mais elevada — seu sacrifício tem valor finito, incapaz de satisfazer a justiça de um Deus infinito ou de oferecer redenção eterna. A redenção exige que seja Deus quem vem ao nosso encontro (Athanasius). A Trindade estrutura a oração: oramos ao Pai (Mt 6.9), pelo Filho como mediador (1Tm 2.5; Hb 7.25), no Espírito que intercede por nós (Rm 8.26-27). Estrutura também a missão: o Pai envia o Filho, o Filho envia a Igreja, o Espírito capacita — a missio Dei é trinitária (Jo 20.21; At 1.8).",
+            "rubric": {
+              "8": "Demonstra fundamento bíblico sólido, explica claramente por que o arianismo destrói a redenção, articula a estrutura trinitária da oração e/ou missão com referências bíblicas.",
+              "6": "Apresenta fundamento bíblico, aborda o problema do arianismo adequadamente, toca na estrutura trinitária da vida cristã.",
+              "4": "Aborda dois dos três aspectos solicitados com clareza razoável.",
+              "2": "Demonstra conhecimento superficial, aborda apenas um aspecto ou comete erros significativos.",
+              "0": "Não demonstra compreensão da doutrina trinitária ou da questão proposta."
+            },
+            "keyPoints": [
+              "Fundamento bíblico: Jo 1.1, Mt 3.16-17, Mt 28.19, 2Co 13.14",
+              "Arianismo: Filho como criatura — sacrifício de valor finito, redenção impossível",
+              "Athanasius: se o Filho não é plenamente Deus, não é Deus quem vem ao nosso encontro",
+              "Oração trinitária: ao Pai, pelo Filho, no Espírito (Rm 8.26-27; Hb 7.25)",
+              "Missão trinitária: missio Dei — o Pai envia o Filho, o Filho envia a Igreja, o Espírito capacita"
+            ]
+          }
+        },
+        {
+          "id": "Q40",
+          "sectionId": "S4",
+          "lessonRef": "FND-DG-02",
+          "type": "essay",
+          "points": 8,
+          "difficulty": "advanced",
+          "question": "A cruz de Cristo é frequentemente apresentada como o lugar onde a aparente tensão entre a justiça e o amor de Deus é resolvida. Com base em Romanos 3.25-26 e nos atributos de Deus estudados, explique: (a) por que a cruz foi necessária para honrar tanto a justiça quanto o amor divinos, e (b) quais distorções teológicas resultam quando um desses atributos é enfatizado em detrimento do outro.",
+          "answerKey": {
+            "gradingMode": "holistic_rubric",
+            "modelAnswer": "Romanos 3.25-26 é o texto-chave: Deus apresentou Cristo como propiciação 'para demonstrar a sua justiça' — a santidade de Deus não pode ignorar o pecado — e ao mesmo tempo ser 'o justificador' daquele que crê — o amor de Deus provê a solução. A cruz foi necessária porque a simplicidade divina não permite que Deus sacrifique um atributo pelo outro: se apenas amasse sem justiça, o pecado seria tratado com indiferença moral; se apenas fosse justo sem amor, a humanidade seria destruída sem esperança. Cristo, como substituto, sofreu a pena justa que os pecadores mereciam (justiça satisfeita) para que a graça pudesse ser concedida livremente (amor demonstrado). Distorções: (1) Ênfase exclusiva no amor sem justiça → liberalismo: um Deus sentimental que perdoa sem expiação, tornando a cruz desnecessária e o pecado trivial. (2) Ênfase exclusiva na justiça sem amor → legalismo: um Deus que julga mas não redime, sem evangelho de graça. A ortodoxia afirma ambos com igual vigor — e os encontra perfeitamente unidos na cruz.",
+            "rubric": {
+              "8": "Cita ou parafraseia Rm 3.25-26 com precisão, explica por que a cruz honra simultaneamente justiça e amor, identifica e explica pelo menos duas distorções teológicas opostas com clareza.",
+              "6": "Articula a relação justiça/amor na cruz adequadamente, identifica ao menos uma distorção teológica concreta.",
+              "4": "Compreende a tensão entre justiça e amor mas explica superficialmente como a cruz a resolve; distorções mencionadas sem desenvolvimento.",
+              "2": "Aborda o tema de forma vaga, sem ancoragem bíblica ou sem identificar distorções.",
+              "0": "Não demonstra compreensão do tema ou responde sobre assunto diferente."
+            },
+            "keyPoints": [
+              "Rm 3.25-26: Deus demonstra justiça E é justificador — ambos honrados simultaneamente na cruz",
+              "Simplicidade divina: os atributos não se contradizem — se complementam",
+              "Cristo como substituto satisfaz a justiça e expressa o amor",
+              "Distorção 1 (amor sem justiça): liberalismo, Deus sentimental, cruz desnecessária, pecado trivializado",
+              "Distorção 2 (justiça sem amor): legalismo, Deus sem graça, sem evangelho redentor"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "gradingSchema": {
+    "scoreBreakdown": {
+      "S1": { "title": "Múltipla Escolha", "maxPoints": 50, "questionCount": 25 },
+      "S2": { "title": "Verdadeiro ou Falso", "maxPoints": 10, "questionCount": 10 },
+      "S3": { "title": "Associação de Conceitos", "maxPoints": 8, "questionCount": 1 },
+      "S4": { "title": "Questões Dissertativas", "maxPoints": 32, "questionCount": 4 }
+    },
+    "gradeScale": [
+      { "label": "Aprovado com Distinção", "minScore": 90, "maxScore": 100, "badge": "distinction" },
+      { "label": "Aprovado com Mérito",    "minScore": 80, "maxScore": 89,  "badge": "merit" },
+      { "label": "Aprovado",               "minScore": 70, "maxScore": 79,  "badge": "pass" },
+      { "label": "Recuperação",            "minScore": 50, "maxScore": 69,  "badge": "recovery" },
+      { "label": "Reprovado",              "minScore": 0,  "maxScore": 49,  "badge": "fail" }
+    ],
+    "passingScore": 70,
+    "recoveryPolicy": {
+      "eligible": "50-69",
+      "maxAttempts": 2,
+      "retakeScope": "failed_sections_only"
+    },
+    "partialCredit": {
+      "S3": true,
+      "S4": true
+    }
+  },
+  "feedbackConfig": {
+    "showCorrectAnswers": "after_submission",
+    "showRationale": "after_submission",
+    "showScore": "immediate",
+    "showSectionScores": "immediate",
+    "showGradeLabel": "immediate",
+    "showKeyPoints": "after_submission",
+    "highlightWeakSections": true,
+    "remedialLinks": {
+      "FND-DG-01": "lessons/FND-DG-01.md",
+      "FND-DG-02": "lessons/FND-DG-02.md",
+      "FND-DG-03": "lessons/FND-DG-03.md"
+    }
+  }
+}

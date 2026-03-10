@@ -1,0 +1,78 @@
+{
+  "bookId": "torrey-origem-divina-biblia",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "draft",
+
+  "meta": {
+    "title": "A Origem Divina da Bíblia",
+    "subtitle": "Sua autoridade, poder e formação demonstrados",
+    "originalTitle": "The Divine Origin of the Bible: Its Authority and Power Demonstrated",
+    "author": {
+      "name": "R.A. Torrey",
+      "born": 1856,
+      "died": 1928,
+      "bio": "Reuben Archer Torrey foi evangelista, pastor e educador americano, formado em Yale e na Alemanha. Colaborador próximo de D.L. Moody em Chicago, tornou-se superintendente do Moody Bible Institute e pregou para milhões de pessoas em todos os continentes. Foi um dos editores de 'The Fundamentals', a obra que nomeou o movimento fundamentalista evangélico."
+    },
+    "originalPublishedYear": 1904,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Autor faleceu em 1928. Domínio público no Brasil desde 1999 (Lei 9.610/98, Art. 41 — 70 anos após a morte do autor).",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe. Linguagem atualizada para o português contemporâneo brasileiro, mantendo fidelidade teológica ao original."
+    },
+    "featuredQuote": "Se você aceita a autoridade de Jesus Cristo, precisa aceitar a Bíblia inteira como Palavra de Deus — qualquer outra posição é logicamente incoerente."
+  },
+
+  "classification": {
+    "category": "biblica",
+    "subcategory": "inspiracao-e-canon",
+    "tags": ["inspiracao-biblica", "formacao-do-canon", "apologetica", "palavra-de-deus", "evangelismo"],
+    "difficulty": "introductory",
+    "audience": ["novos-crentes", "membros"],
+    "readingLevel": "acessível"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "revelacao-escritura",
+      "lessonId": "FND-RE-02",
+      "relevance": "high",
+      "note": "Torrey apresenta com clareza apologética o que é inspiração bíblica, como o cânon se formou e por que podemos confiar nos dois Testamentos."
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 52,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "TRR-ODB-01",
+      "order": 1,
+      "title": "O Que Significa Dizer que a Bíblia É Inspirada?",
+      "file": "chapters/TRR-ODB-01.md",
+      "estimatedMinutes": 17
+    },
+    {
+      "chapterId": "TRR-ODB-02",
+      "order": 2,
+      "title": "Jesus e a Autoridade das Escrituras",
+      "file": "chapters/TRR-ODB-02.md",
+      "estimatedMinutes": 17
+    },
+    {
+      "chapterId": "TRR-ODB-03",
+      "order": 3,
+      "title": "Como a Bíblia Foi Formada: O Cânon",
+      "file": "chapters/TRR-ODB-03.md",
+      "estimatedMinutes": 18
+    }
+  ]
+}

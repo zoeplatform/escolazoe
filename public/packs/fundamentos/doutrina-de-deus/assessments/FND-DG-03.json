@@ -1,0 +1,58 @@
+{
+  "lessonId": "FND-DG-03",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "multiple_choice",
+      "question": "A heresia do modalismo (Sabélio) afirma que:",
+      "options": ["Existem três deuses distintos — Pai, Filho e Espírito Santo.", "O Filho é a mais elevada das criaturas, mas inferior ao Pai em essência.", "Deus é um único ser que se manifesta em três modos ou máscaras sequenciais, não em três pessoas simultâneas e distintas.", "O Espírito Santo é uma força impessoal emanada de Deus, não uma pessoa."],
+      "correctIndex": 2,
+      "rationale": "O modalismo (Sabelianismo) afirma que Pai, Filho e Espírito são modos do único Deus — como um ator com três máscaras. Problema central: desfaz as distinções reais, tornando a oração de Jesus ao Pai um monólogo interno."
+    },
+    {
+      "id": "Q2",
+      "type": "multiple_choice",
+      "question": "O termo homoousios, afirmado no Concílio de Niceia (325 d.C.), significa que o Filho é:",
+      "options": ["De substância semelhante ao Pai, mas não idêntica.", "Da mesma substância que o Pai — consubstancial ao Pai.", "Subordinado ao Pai em ser e dignidade, embora divino.", "Criado pelo Pai antes da fundação do mundo."],
+      "correctIndex": 1,
+      "rationale": "Homoousios (homo = mesmo; ousia = substância/ser) afirma identidade de essência entre Pai e Filho. A alternativa ariana proposta era homoiousios (substância semelhante) — uma letra de diferença com consequências infinitas para a redenção."
+    },
+    {
+      "id": "Q3",
+      "type": "multiple_choice",
+      "question": "João 1.1 — 'No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus' — afirma simultaneamente:",
+      "options": ["Que o Verbo é uma entidade divina criada no princípio do tempo.", "A distinção real entre o Verbo e Deus (estava com Deus) e a identidade de essência (era Deus).", "Que Deus e o Verbo são o mesmo ser sem distinção real entre eles (modalismo).", "Que havia dois deuses no princípio — Deus e o Verbo."],
+      "correctIndex": 1,
+      "rationale": "João 1.1 é trinitarismo em miniatura: 'estava com Deus' afirma distinção real de pessoa; 'era Deus' afirma identidade de essência. Simultaneamente: distinção e unidade — o coração da doutrina trinitária."
+    },
+    {
+      "id": "Q4",
+      "type": "multiple_choice",
+      "question": "O que o batismo de Jesus em Mateus 3.16-17 demonstra em relação à doutrina trinitária?",
+      "options": ["Que o Filho recebeu sua divindade no batismo, sendo adotado por Deus naquele momento.", "Que as três pessoas são formas do mesmo ser divino aparecendo de maneiras diferentes.", "Que as três pessoas coexistem de forma simultânea e distinta: o Filho é batizado, o Espírito desce, o Pai fala.", "Que o batismo é o momento em que o crente recebe as três pessoas da Trindade."],
+      "correctIndex": 2,
+      "rationale": "O batismo de Jesus é uma das evidências bíblicas mais claras da distinção simultânea das três pessoas: o Filho está na água, o Espírito desce como pomba e o Pai fala do céu — ao mesmo tempo, de formas distintas."
+    },
+    {
+      "id": "Q5",
+      "type": "multiple_choice",
+      "question": "Por que Atanásio entendia que negar a plena divindade do Filho destruía a redenção cristã?",
+      "options": ["Porque o Filho precisava ser divino para realizar milagres durante seu ministério terreno.", "Porque apenas um ser que é plenamente Deus pode oferecer redenção de valor eterno e infinito diante do Deus infinito.", "Porque o Pai só aceitaria o sacrifício se o Filho fosse igualmente divino por questão de dignidade.", "Porque a encarnação seria impossível se o Filho não fosse da mesma substância que o Pai."],
+      "correctIndex": 1,
+      "rationale": "Atanásio compreendeu que se o Filho é criatura, não importa quão elevada, seu sacrifício tem valor finito — insuficiente para resgatar a humanidade diante do Deus infinitamente santo. A redenção exige que seja Deus quem vem ao nosso encontro."
+    },
+    {
+      "id": "Q6",
+      "type": "short_answer",
+      "question": "Explique a distinção entre 'subordinação econômica' e 'subordinação ontológica' em relação ao Filho. Por que essa distinção é teologicamente importante?",
+      "expectedPoints": ["Subordinação econômica: no plano da redenção, o Filho obedece ao Pai e é enviado por ele (Jo 4.34; Fp 2.8)", "Subordinação ontológica: o Filho seria inferior em ser, essência ou dignidade ao Pai", "A ortodoxia afirma a econômica e rejeita a ontológica", "O Filho pode obedecer ao Pai no plano redentor sem ser inferior em essência — assim como na analogia humana onde obediência não implica inferioridade de ser", "Negar a distinção confunde missão com natureza — e abre porta para o subordinacionismo (heresia)"]
+    },
+    {
+      "id": "Q7",
+      "type": "short_answer",
+      "question": "De que forma a doutrina da Trindade — especialmente o conceito de pericórese (comunhão mútua entre as pessoas) — serve como fundamento e modelo para a vida da Igreja?",
+      "expectedPoints": ["Pericórese: as três pessoas habitam mutuamente com unidade perfeita mantendo distinções reais", "João 17.21: Jesus ora para que seus discípulos sejam um, 'como nós somos um'", "A unidade da Igreja não é uniformidade (que elimina distinções) mas comunhão na diversidade", "1 João 1.3: a comunhão cristã é participação na comunhão trinitária", "A missão da Igreja reflete a missio Dei: o Pai envia o Filho, o Filho envia a Igreja no Espírito"]
+  }
+  ]
+}

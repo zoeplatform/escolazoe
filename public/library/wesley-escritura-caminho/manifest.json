@@ -1,0 +1,78 @@
+{
+  "bookId": "wesley-escritura-caminho",
+  "type": "library-book",
+  "version": "1.0.0",
+  "updatedAt": "2026-03-08",
+  "status": "draft",
+
+  "meta": {
+    "title": "A Escritura: Caminho ao Céu",
+    "subtitle": "Confiabilidade, interpretação e centralidade da Palavra de Deus",
+    "originalTitle": "Preface to Sermons on Several Occasions & Sermon XII: The Means of Grace",
+    "author": {
+      "name": "John Wesley",
+      "born": 1703,
+      "died": 1791,
+      "bio": "John Wesley foi pregador anglicano, teólogo e fundador do movimento metodista. Pregou mais de 40 mil sermões em 50 anos de ministério, percorrendo a pé e a cavalo centenas de milhares de quilômetros pela Inglaterra. Defensor apaixonado da Escritura como única regra de fé e vida, Wesley influenciou profundamente o protestantismo evangélico — especialmente as tradições metodista, wesleyana e carismática."
+    },
+    "originalPublishedYear": 1746,
+    "domainPublicConfirmed": true,
+    "domainPublicNote": "Autor faleceu em 1791. Domínio público no Brasil desde 1862 (Lei 9.610/98, Art. 41 — 70 anos após a morte do autor).",
+    "translation": {
+      "type": "escola-zoe-original",
+      "translatedBy": "Escola Zoe",
+      "translationYear": 2026,
+      "note": "Tradução e adaptação editorial própria, produzida pela equipe Escola Zoe. Linguagem atualizada para o português contemporâneo brasileiro, mantendo fidelidade teológica ao original."
+    },
+    "featuredQuote": "Quero conhecer uma coisa — o caminho ao céu. Deus mesmo se dignou a ensiná-lo. Ele o escreveu num livro. Ó, dai-me esse livro! A qualquer preço, dai-me o livro de Deus!"
+  },
+
+  "classification": {
+    "category": "biblica",
+    "subcategory": "interpretacao-e-inerrancia",
+    "tags": ["inerrancia", "interpretacao-biblica", "meios-de-graca", "palavra-de-deus", "metodismo"],
+    "difficulty": "introductory",
+    "audience": ["novos-crentes", "membros"],
+    "readingLevel": "acessível"
+  },
+
+  "curriculumLinks": [
+    {
+      "courseId": "fundamentos",
+      "moduleId": "revelacao-escritura",
+      "lessonId": "FND-RE-03",
+      "relevance": "high",
+      "note": "Wesley apresenta sua convicção sobre a confiabilidade e inerrância da Escritura e um método prático e espiritual de interpretação bíblica."
+    }
+  ],
+
+  "readingInfo": {
+    "totalChapters": 3,
+    "totalEstimatedMinutes": 50,
+    "recommendedPace": "1 capítulo por semana"
+  },
+
+  "chapters": [
+    {
+      "chapterId": "WSL-EC-01",
+      "order": 1,
+      "title": "O Homem de Um Único Livro",
+      "file": "chapters/WSL-EC-01.md",
+      "estimatedMinutes": 16
+    },
+    {
+      "chapterId": "WSL-EC-02",
+      "order": 2,
+      "title": "A Escritura É Infalivelmente Verdadeira",
+      "file": "chapters/WSL-EC-02.md",
+      "estimatedMinutes": 17
+    },
+    {
+      "chapterId": "WSL-EC-03",
+      "order": 3,
+      "title": "Como Ler a Bíblia para Encontrar Deus",
+      "file": "chapters/WSL-EC-03.md",
+      "estimatedMinutes": 17
+    }
+  ]
+}
