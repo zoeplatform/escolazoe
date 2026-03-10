@@ -27,8 +27,8 @@ export const BRAND_TAGLINE = "Aprendizado que transforma";
  * Substitua cada arquivo pelo SVG final da marca na versão correspondente.
  * O componente troca automaticamente conforme o tema ativo.
  */
-const ICON_WHITE = "/icons/logo-white.svg";
-const ICON_BLACK = "/icons/logo-black.svg";
+const ICON_WHITE = `${import.meta.env.BASE_URL}icons/logo-white.svg`;
+const ICON_BLACK = `${import.meta.env.BASE_URL}icons/logo-black.svg`;
 
 function resolveIconSrc(isDark: boolean): string {
   // Fundo escuro → logo branca | Fundo claro → logo preta
