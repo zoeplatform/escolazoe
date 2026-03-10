@@ -7,8 +7,7 @@
     <script>
       // Redireciona rotas SPA para o index.html no GitHub Pages
       // Técnica de: https://github.com/rafgraph/spa-github-pages
-      var pathSegmentsToKeep = 1; // 1 = mantém o nome do repositório no path (subpath deploy)
-                                   // 0 = domínio customizado (root deploy)
+      var pathSegmentsToKeep = 0; // 0 = domínio customizado (root deploy)
 
       var l = window.location;
       l.replace(
