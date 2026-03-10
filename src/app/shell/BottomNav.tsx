@@ -43,11 +43,6 @@ export function BottomNav({ courseId, prev, next, currentIndex, total }: BottomN
           </span>
         </button>
 
-        {/* Counter */}
-        <span className="bottomNav__counter">
-          {currentIndex + 1} / {total}
-        </span>
-
         {/* Next */}
         <button
           className="bottomNav__btn bottomNav__btn--next"

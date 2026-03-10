@@ -11,7 +11,9 @@ import { Course } from "../../domain/types";
  */
 
 // PACKS-AUTO-GEN:START
-const GENERATED_MODULES = [
+import type { Module } from "../../domain/types";
+
+const GENERATED_MODULES: Module[] = [
   {
     id: "FND-M01",
     title: "Revelação & Escritura",
@@ -77,10 +79,10 @@ const GENERATED_MODULES = [
       },
     ],
   },
-] as const;
+];
 // PACKS-AUTO-GEN:END
 
-const PLACEHOLDER_MODULES = [
+const PLACEHOLDER_MODULES: Module[] = [
 {
       id: "FND-M03",
       title: "Antropologia e Pecado",
@@ -250,12 +252,12 @@ const PLACEHOLDER_MODULES = [
         },
       ],
     }
-] as const;
+];
 
 export const fundamentosCourse: Course = {
   id: "fundamentos",
-  title: "Fundamentos da Fé Cristã (1 ano)",
-  description: "Modelo institucional quinzenal (24 encontros). Estrutura completa para receber conteúdo via pacotes (GCS) e camadas institucionais.",
+  title: "Fundamentos da Fé Cristã",
+  description: "Estude as doutrinas essenciais do cristianismo no seu ritmo, com conteúdo sólido e acessível.",
   totalLessons: 24,
   modules: [...GENERATED_MODULES, ...PLACEHOLDER_MODULES],
 };

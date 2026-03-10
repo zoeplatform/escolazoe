@@ -34,6 +34,19 @@ html[data-theme='light'] {
   --zoe-shadow: 0 20px 50px rgba(34, 59, 120, 0.12);
 }
 
+html[data-theme='reading'] {
+  --zoe-bg: #f5f0e8;
+  --zoe-surface: rgba(255,252,245,0.92);
+  --zoe-surface-2: rgba(255,252,245,0.98);
+  --zoe-surface-3: #ede8de;
+  --zoe-line: rgba(16,12,4,0.10);
+  --zoe-line-strong: rgba(16,12,4,0.16);
+  --zoe-text: #1a1208;
+  --zoe-muted: rgba(26,18,8,0.68);
+  --zoe-soft: rgba(26,18,8,0.46);
+  --zoe-shadow: 0 20px 50px rgba(80,60,20,0.10);
+}
+
 body {
   background: radial-gradient(circle at top, rgba(122,140,255,0.14), transparent 32%), var(--zoe-bg);
 }

@@ -10,7 +10,6 @@ import { CoursePage } from "../pages/CoursePage";
 import { ModulePage } from "../pages/ModulePage";
 import { LessonPage } from "../pages/LessonPage";
 import { ExamPage } from "../pages/ExamPage";
-import { PresentationPage } from "../pages/PresentationPage";
 import { SplashPage } from "../pages/SplashPage";
 import { LoginPage } from "../pages/auth/LoginPage";
 import { RegisterPage } from "../pages/auth/RegisterPage";

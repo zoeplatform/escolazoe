@@ -883,6 +883,7 @@ html[data-theme="reading"] .bottomNav {
   display: flex;
   align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
   box-shadow: 0 0 0 1px var(--accent-dim) inset;
   margin-bottom: 24px;
 }
@@ -904,6 +905,7 @@ html[data-theme="reading"] .bottomNav {
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 3px;
+  word-break: break-word;
 }
 .resumeCardSub { font-size: 12px; color: var(--muted); }
 .resumeProgress {
@@ -1360,10 +1362,8 @@ html[data-reader-spacing="comfortable"] { --line-base: 1.85; }
 
 /* Footer da sidebar */
 .sidebarFooter {
-  padding: 10px 14px;
+  padding: 10px 12px;
   border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 12px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -1371,16 +1371,34 @@ html[data-reader-spacing="comfortable"] { --line-base: 1.85; }
   gap: 10px;
 }
 .sideLogoutBtn {
-  background: none;
-  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
   color: var(--muted);
-  padding: 0;
+  padding: 8px 12px;
   font-family: var(--font-body);
-  transition: color var(--duration-fast);
+  transition: background var(--duration-fast), border-color var(--duration-fast), color var(--duration-fast);
 }
-.sideLogoutBtn:hover { color: var(--danger); }
+.sideLogoutBtn:hover {
+  background: var(--danger-dim, rgba(239,68,68,.08));
+  border-color: rgba(239,68,68,.3);
+  color: var(--danger, #ef4444);
+}
+.sideLogoutBtn svg {
+  flex-shrink: 0;
+  opacity: .75;
+  transition: opacity var(--duration-fast), transform var(--duration-fast);
+}
+.sideLogoutBtn:hover svg {
+  opacity: 1;
+  transform: translateX(2px);
+}
 .sidebarVersion { font-size: 11px; color: var(--border); }
 
 /* Badge no header dos grupos */
@@ -1744,7 +1762,38 @@ html[data-theme="reading"] .lessonSectionBody.prose em {
   /* sem padding extra — as seções têm padding próprio */
 }
 
-/* ── Barra de progresso sticky ────────────────────────────────────────── */
+/* ── Botão voltar ao módulo (LessonPage) ── */
+.lessonBackBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-decoration: none;
+  margin-bottom: 18px;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  letter-spacing: .03em;
+  transition: color var(--duration-fast), border-color var(--duration-fast), background var(--duration-fast), transform var(--duration-fast);
+}
+.lessonBackBtn::before {
+  content: "←";
+  font-size: 14px;
+  line-height: 1;
+  transition: transform var(--duration-fast);
+}
+.lessonBackBtn:hover {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-dim);
+  transform: translateX(-2px);
+}
+.lessonBackBtn:hover::before {
+  transform: translateX(-2px);
+}
 .lessonProgressSticky {
   /* Sem sticky — rola junto com a página, não cobre o conteúdo */
   background: var(--panel);
@@ -1799,33 +1848,35 @@ html[data-theme="reading"] .lessonSectionBody.prose em {
   counter-reset: obj-counter;
   list-style: none;
   margin-left: 0;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 .lessonSection--objectives .lessonSectionBody.prose ol li {
   counter-increment: obj-counter;
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  padding: 10px 14px;
+  position: relative;
+  padding: 10px 14px 10px 46px;
   background: var(--accent-dim);
   border: 1px solid var(--accent-border);
   border-radius: 12px;
+  text-align: left;
 }
 .lessonSection--objectives .lessonSectionBody.prose ol li::before {
   content: counter(obj-counter);
+  position: absolute;
+  left: 12px;
+  top: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 22px;
   height: 22px;
-  min-width: 22px;
   border-radius: 50%;
   background: var(--accent);
   color: #000;
   font-size: 11px;
   font-weight: 800;
   flex-shrink: 0;
-  margin-top: 1px;
 }
 
 /* ── Seção: Exposição ── */
@@ -1848,24 +1899,26 @@ html[data-theme="reading"] .lessonSectionBody.prose em {
 .lessonSection--application .lessonSectionBody.prose ol {
   list-style: none;
   margin-left: 0;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 .lessonSection--application .lessonSectionBody.prose ol li {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  padding: 10px 14px;
+  position: relative;
+  padding: 10px 14px 10px 40px;
   background: rgba(34,197,94,.07);
   border: 1px solid rgba(34,197,94,.2);
   border-radius: 12px;
+  text-align: left;
 }
 .lessonSection--application .lessonSectionBody.prose ol li::before {
   content: "✓";
+  position: absolute;
+  left: 14px;
+  top: 11px;
   color: var(--success);
   font-weight: 800;
   font-size: 14px;
-  flex-shrink: 0;
-  margin-top: 1px;
 }
 
 /* ── Seção: Reflexão / Perguntas ── */
@@ -1877,33 +1930,34 @@ html[data-theme="reading"] .lessonSectionBody.prose em {
   counter-reset: q-counter;
   list-style: none;
   margin-left: 0;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 .lessonSection--reflection .lessonSectionBody.prose ol li {
   counter-increment: q-counter;
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
+  position: relative;
+  padding: 12px 14px 12px 46px;
   background: rgba(96,165,250,.08);
   border: 1px solid rgba(96,165,250,.18);
   border-radius: 12px;
-  padding: 12px 14px;
+  text-align: left;
 }
 .lessonSection--reflection .lessonSectionBody.prose ol li::before {
   content: counter(q-counter);
+  position: absolute;
+  left: 12px;
+  top: 14px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 22px;
   height: 22px;
-  min-width: 22px;
   border-radius: 50%;
   background: rgba(96,165,250,.2);
   color: #60a5fa;
   font-size: 11px;
   font-weight: 800;
-  flex-shrink: 0;
-  margin-top: 1px;
 }
 
 /* ── Seção: Devocional ── */

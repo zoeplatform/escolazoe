@@ -5,14 +5,14 @@ import { useAuth } from "../auth/AuthContext";
 import { Card } from "../ui/Card";
 
 export function SplashPage() {
-  const { booting, isAuthed, accountType } = useAuth();
+  const { booting, isAuthed } = useAuth();
   const [, nav] = useLocation();
 
   useEffect(() => {
     if (booting) return;
     if (!isAuthed) nav("/auth/login");
-    else nav(accountType === "institution" ? "/pastoral/dashboard" : "/");
-  }, [booting, isAuthed, accountType, nav]);
+    else nav("/courses");
+  }, [booting, isAuthed, nav]);
 
   return (
     <div className="page centerPage">

@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, Link } from "wouter";
 import { getCourseById, getLessonById, getLessonNav } from "../curriculum";
-import { Card } from "../ui/Card";
 import { ProgressBar } from "../ui/ProgressBar";
 import {
   getLessonProgress,
@@ -126,6 +125,14 @@ export function LessonPage() {
 
       {/* ── Header da aula ── */}
       <div className="readerHeader">
+        {parentModule && (
+          <Link
+            href={`/course/${courseId}/module/${parentModule.id}`}
+            className="lessonBackBtn"
+          >
+            {parentModule.title}
+          </Link>
+        )}
         <div className="readerKicker">
           {parentModule?.title ?? course.title} · Aula {nav.index + 1} de {nav.total}
         </div>

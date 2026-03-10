@@ -102,6 +102,11 @@ function stripPackagingCodeFences(md: string) {
   });
 }
 
+/** remove a seção ## Avaliação que é interna — o card de avaliação fica no módulo */
+function stripAssessmentSection(md: string) {
+  return md.replace(/^## Avalia[çc][aã]o\b[\s\S]*?(?=^## |\Z)/gim, "");
+}
+
 export type MarkdownViewMode = "student" | "leader";
 
 /** sanitize for students; leaders can view raw */
@@ -110,6 +115,7 @@ export function sanitizeMarkdown(input: string, mode: MarkdownViewMode = "studen
   if (mode === "leader") return md;
 
   md = stripFrontmatter(md);
+  md = stripAssessmentSection(md);
   md = stripMarkedHtmlBlocks(md);
   md = stripAdmonitionBlocks(md);
   md = stripInstructionHeadings(md);
