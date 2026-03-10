@@ -44,7 +44,7 @@ export function CoursesPage() {
     <div className="page">
       <header className="pageHeader">
         <div className="kicker">✦ Fundamentos da Fé Cristã</div>
-        <h1>{getGreeting()}, discípulo</h1>
+        <h1>{getGreeting()}, Aluno</h1>
         <p className="muted">Continue sua jornada ou explore um novo módulo.</p>
       </header>
 
